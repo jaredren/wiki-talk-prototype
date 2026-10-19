@@ -1,0 +1,75 @@
+/*
+ * Scoped styling for the rendered Wikipedia talk section (.talk-body).
+ * Reproduces the Vector 2022 look closely enough for a prototype without
+ * loading Wikipedia's stylesheets.
+ */
+
+.talk-body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #202122;
+}
+
+/* ---- Controls that must NOT appear (quick fix: delete the line) ---- */
+.talk-body .ext-discussiontools-init-replylink-buttons,   /* Reply and "..." */
+.talk-body .mw-editsection,                                /* [edit source] */
+.talk-body .ext-discussiontools-init-section-actions,      /* subscribe etc. */
+.talk-body .ext-discussiontools-init-section-subscribe {
+  display: none;
+}
+
+/* ---- Heading and metadata bar ---- */
+.talk-body .mw-heading2 {
+  margin-top: 0;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0;
+}
+.talk-body h2 {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 0.25em;
+}
+.talk-body .ext-discussiontools-init-section-bar {
+  font-size: 0.875em;
+  color: #54595d;
+  margin-bottom: 0.5em;
+}
+.talk-body .ext-discussiontools-init-section-metaitem + .ext-discussiontools-init-section-metaitem::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  background: #a2a9b1;
+  margin: 0 0.75em -0.15em;
+}
+
+/* ---- Links ---- */
+.talk-body a { color: #3366cc; text-decoration: none; }
+.talk-body a:hover { text-decoration: underline; }
+.talk-body a.external::after {
+  content: '';
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 2px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='%2336c' d='M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1'/%3E%3C/svg%3E") no-repeat center;
+}
+.talk-body a.ext-discussiontools-init-timestamplink { color: #54595d; }
+
+/* ---- Threading (Wikipedia indents replies with dl/dd) ---- */
+.talk-body p { margin: 0.5em 0; }
+.talk-body dl { margin: 0.5em 0 0.5em 1.6em; padding: 0; }
+.talk-body dd { margin: 0.25em 0; }
+.talk-body s { color: #54595d; }
+.talk-body small { font-size: 0.85em; }
+.talk-body img.mw-file-element { vertical-align: text-bottom; }
+.talk-body .template-ping { }
+
+/* ---- Highlight for the selected user's comments ---- */
+.talk-body mark.user-hl {
+  background: #fff3a8; /* light yellow */
+  color: inherit;
+  padding: 0;
+}

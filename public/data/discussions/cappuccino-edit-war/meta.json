@@ -1,0 +1,107 @@
+{
+  "id": "cappuccino-edit-war",
+  "page": "Talk:Cappuccino",
+  "section": "edit war",
+  "oldid": 1374347552,
+  "source": "https://en.wikipedia.org/w/index.php?title=Talk:Cappuccino&oldid=1374347552#edit_war",
+  "commentCount": 15,
+  "participants": [
+    {
+      "name": "Valereee",
+      "isIP": false,
+      "comments": 3
+    },
+    {
+      "name": "Sapsby",
+      "isIP": false,
+      "comments": 2
+    },
+    {
+      "name": "JacktheBrown",
+      "isIP": false,
+      "comments": 3
+    },
+    {
+      "name": "Yvan Part",
+      "isIP": false,
+      "comments": 2
+    },
+    {
+      "name": "Stephen Hui",
+      "isIP": false,
+      "comments": 1
+    },
+    {
+      "name": "87.16.79.110",
+      "isIP": true,
+      "comments": 1
+    },
+    {
+      "name": "79.12.74.77",
+      "isIP": true,
+      "comments": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": "c-Valereee-20240813184300-edit_war",
+      "author": "Valereee"
+    },
+    {
+      "id": "c-Sapsby-20240819125400-Valereee-20240813184300",
+      "author": "Sapsby"
+    },
+    {
+      "id": "c-JacktheBrown-20240819140300-Sapsby-20240819125400",
+      "author": "JacktheBrown"
+    },
+    {
+      "id": "c-JacktheBrown-20240814093500-edit_war",
+      "author": "JacktheBrown"
+    },
+    {
+      "id": "c-Sapsby-20240819125600-JacktheBrown-20240814093500",
+      "author": "Sapsby"
+    },
+    {
+      "id": "c-Yvan_Part-20240819150600-Sapsby-20240819125600",
+      "author": "Yvan Part"
+    },
+    {
+      "id": "c-JacktheBrown-20240820122700-Yvan_Part-20240819150600",
+      "author": "JacktheBrown"
+    },
+    {
+      "id": "c-Stephen_Hui-20230507063600-JacktheBrown-20240814093500",
+      "author": "Stephen Hui"
+    },
+    {
+      "id": "c-87.16.79.110-20240819172200-JacktheBrown-20240814093500",
+      "author": "87.16.79.110"
+    },
+    {
+      "id": "c-Yvan_Part-20240819180300-87.16.79.110-20240819172200",
+      "author": "Yvan Part"
+    },
+    {
+      "id": "c-79.12.74.77-20240819190700-Yvan_Part-20240819180300",
+      "author": "79.12.74.77"
+    },
+    {
+      "id": "c-Valereee-20240819201000-79.12.74.77-20240819190700",
+      "author": "Valereee"
+    },
+    {
+      "id": "c-79.12.74.77-20240819202700-Valereee-20240819201000",
+      "author": "79.12.74.77"
+    },
+    {
+      "id": "c-79.12.74.77-20240819205200-79.12.74.77-20240819202700",
+      "author": "79.12.74.77"
+    },
+    {
+      "id": "c-Valereee-20240819224500-79.12.74.77-20240819202700",
+      "author": "Valereee"
+    }
+  ]
+}
