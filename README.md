@@ -77,7 +77,7 @@ in about a minute. No local install needed for content changes.
    This writes `talk.html` and `meta.json`.
 4. Run the scraper for each name in `meta.json` `participants` and save the
    output as `public/data/users/<Name_with_underscores>.json`.
-5. Commit. Open the site with `?discussion=<id>`.
+5. Commit. The discussion appears in the dropdown; `?discussion=<id>` links to it directly.
 
 Participants are derived from the snapshot's DiscussionTools comment markers,
 so new discussions populate their tabs automatically.
@@ -102,5 +102,6 @@ sets the Vite base path to `/<repo-name>/`, so the repo can have any name.
 - Hover previews depend on network access to en.wikipedia.org at test time.
   To make them offline-safe, replace `getPreview` in `src/preview.ts` with a
   lookup into a pre-fetched JSON file.
-- No navigation between discussions and no participant logging (both
-  deliberately out of scope for now).
+- No participant logging (deliberately out of scope for now). A dropdown in
+  the top-left toolbar switches discussions when the manifest has more than
+  one; the `?discussion=<id>` URL parameter deep-links to one.

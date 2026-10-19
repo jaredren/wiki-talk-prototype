@@ -33,7 +33,25 @@ html, body, #root {
   min-height: 0;
   padding: 24px 48px 0;
 }
-.left-toolbar { flex: 0 0 auto; margin-bottom: 16px; }
+.left-toolbar {
+  flex: 0 0 auto;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.discussion-picker { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.discussion-picker select {
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  padding: 6px 8px;
+  max-width: 360px;
+}
 
 .talk-pane {
   flex: 1 1 auto;
