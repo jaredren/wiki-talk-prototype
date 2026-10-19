@@ -66,18 +66,38 @@ function topEntries(rec: Record<string, number> | undefined, n: number) {
 export function pageCount(p: UserProfile | null, key: BucketKey): number {
   return Object.keys(p?.user_contribs?.recent_contribs?.[key]?.edit_counts_by_page ?? {}).length
 }
-export const userTalkInteractionCount = (p: UserProfile | null) =>
-  Object.keys(p?.social_network?.user_talk_social_network ?? {}).length
-export const articleTalkCollaboratorCount = (p: UserProfile | null) =>
-  Object.keys(p?.social_network?.article_talk_social_network ?? {}).length
+/**
+ * User-talk interactions: username -> count.
+ * Preferred source is social_network.user_talk_social_network; older scraper
+ * output lacks that block, so fall back to user_talk_page.social_networks_found.
+ */
+function userTalkMap(p: UserProfile | null): Record<string, number> {
+  const sn = p?.social_network?.user_talk_social_network
+  if (sn) return sn
+  const found = p?.user_talk_page?.social_networks_found ?? {}
+  return Object.fromEntries(Object.entries(found).map(([u, v]) => [u, v.their_posts_on_my_talk_count]))
+}
 
-/** Top N users by user-talk interactions (social_network.user_talk_social_network). */
-export const topUserTalkInteractions = (p: UserProfile | null, n = 10) =>
-  topEntries(p?.social_network?.user_talk_social_network, n)
+/**
+ * Article-talk collaborators: username -> shared discussion count.
+ * Preferred source is social_network.article_talk_social_network; fallback is
+ * talk_activity.article_talk_social_networks_found.
+ */
+function articleTalkMap(p: UserProfile | null): Record<string, number> {
+  const sn = p?.social_network?.article_talk_social_network
+  if (sn) return sn
+  const found = p?.talk_activity?.article_talk_social_networks_found ?? {}
+  return Object.fromEntries(Object.entries(found).map(([u, v]) => [u, v.shared_discussion_count]))
+}
 
-/** Top N users by shared article-talk discussions (social_network.article_talk_social_network). */
-export const topArticleTalkCollaborators = (p: UserProfile | null, n = 10) =>
-  topEntries(p?.social_network?.article_talk_social_network, n)
+export const userTalkInteractionCount = (p: UserProfile | null) => Object.keys(userTalkMap(p)).length
+export const articleTalkCollaboratorCount = (p: UserProfile | null) => Object.keys(articleTalkMap(p)).length
+
+/** Top N users by user-talk interactions. */
+export const topUserTalkInteractions = (p: UserProfile | null, n = 10) => topEntries(userTalkMap(p), n)
+
+/** Top N users by shared article-talk discussions. */
+export const topArticleTalkCollaborators = (p: UserProfile | null, n = 10) => topEntries(articleTalkMap(p), n)
 
 /** Article edit size distribution rows, in the design's bin order. */
 export const EDIT_SIZE_BINS: { key: '<100' | '100-500' | '500-1000' | '1000+'; label: string }[] = [

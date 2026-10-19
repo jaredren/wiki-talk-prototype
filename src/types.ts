@@ -77,6 +77,12 @@ export interface UserProfile {
     barnstar_count: number
     social_networks_found: Record<string, { their_posts_on_my_talk_count: number }>
   }
+  talk_activity?: {
+    article_talk_page?: { posts_by_page: Record<string, unknown[]> }
+    user_talk_page?: { posts_by_page: Record<string, unknown[]> }
+    /** username -> shared discussion count (older scraper output) */
+    article_talk_social_networks_found?: Record<string, { shared_discussion_count: number }>
+  }
   social_network?: {
     total_count: number
     social_networks: Record<string, number>
