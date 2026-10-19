@@ -1,0 +1,1558 @@
+{
+  "account_information": {
+    "username": "Stephen Hui",
+    "account_created": "2005-11-21T06:25:29Z",
+    "total_edit_count": 4152
+  },
+  "discussion_participation": {
+    "source_url": "https://en.wikipedia.org/wiki/Talk:Cappuccino#edit_war",
+    "page": "Talk:Cappuccino",
+    "discussion_title": "edit_war",
+    "posts": [
+      ":Sorry, but why is no one reporting the fact that the user [[User:Sapsby|Sapsby]] - as well as the users [[User:Oxbowa|Oxbowa]], [[User:Greyczech|Greyczech]], [[User:Eduadoros|Eduadoros]], among countless other IPs - are just the umpteenth sockpuppets of the user until recently indefinitely blocked [[User:Xiaomichel |Xiaomichel]] (here is also an investigation into his many other confirmed sockpuppets: https://en.wikipedia.org/wiki/Wikipedia:Sockpuppet_investigations/Xiaomichel/Archive)? Report these users and you will see that they all clearly correspond to the same person, i.e., that they are all sockpuppets intent on pushing an Italophobic and French chauvinist agenda on food issues.\n:As you can also see on his talk page, a few days ago the user/master [[User:Xiaomichel |Xiaomichel]] also deleted the damning evidence of all this inside his profile, in an attempt to avoid being discovered, namely, as you can see by looking at what he deleted, the parts where an administrator wrote this to him on his talk page (that is, what he is, and for which he was then blocked):\n:'''Single-purpose account'''\n:Hello,\n:I've reviewed [https://en.wikipedia.org/wiki/Special:Contributions/Xiaomichel all the edits you've ever made], and it's clear that you are a [[WP:SPA|single-purpose account]] engaged in [[WP:TE|tendentious editing]]. Specifically, you're engaged in a concerted effort to remove mentions of Italian and Austrian origins of French dishes.\n:While reviewing your edits, I've noticed that you've rewritten articles about pastries to state that they were created by French chefs rather than Italian or Austrian ones, but then often cited articles that contradict your edits and explicitly state that the pastries originated in Italy or Austria.\n:A brief overview of articles you've edited: : [[Ravioli]] and [[Talk:Ravioli]] - You engaged in an edit war while attempting to remove mentions of the Italian etymology of the word \"ravioli\", citing a 13th-century document. After another editor dug up the document and pointed out that it didn't actually say anything about ravioli at all, you admitted that you hadn't actually read it.\n:: [[Profiterole]] - You deleted all mentions of the pastry's Italian origins and removed a reference-supported statement about those origins, and instead wrote the pastry was invented by a French chef. The book you cited, Classic Patisserie: An A-Z Handbook, actually explicitly states that pastry is an evolution of one created by an Italian on page 45. : [[Choux pastry]] - You rewrote the article to state that the pastry was invented by a French chef, citing the same book mentioned above that states that the pastry was actually invented by an Italian chef.\n:: [[Draft:The Italian Myth in French Cuisine]] - You wrote a draft article stating as fact that Catherine de' Medici had no influence on French cuisine; the draft article does not acknowledge that this is a disputed theory, and that many reputable sources state that Medici had a major influence on French cuisine.\n:: [[Croissant]] - You had a short edit war during which you tried to remove any acknowledgment of the pastry's Austrian origins. You also added two statements that Sylvain Goy invented the croissant, but more on this below... : [[Sylvain Claudius Goy]] - You created an article stating that Goy invented the croissant, but the reference you provided to support this statement is just a for-sale listing for a cookbook written by Goy. You also linked to a blog article which explicitly states that \"croissant\" was originally the French name for the kipferl, an Austrian predecessor pastry that was introduced to France in 1839. The blog article does support the contention that Goy published the first croissant recipe that used laminated yeast dough, but [[WP:USERGENERATED]] explicitly states that blogs aren't considered reliable sources anyway.\n:I won't summarize the rest of your edits here, but suffice it to say that they all involve you removing mentions of Italian or Austrian influence on French cuisine, often engaging in edit wars in the process.\n:Please stop.\n:[[User:Stephen Hui|Stephen Hui]] ([[User talk:Stephen Hui|talk]]) 06:36, 7 May 2023 (UTC)"
+    ]
+  },
+  "block_information": {
+    "current_block_information": {
+      "currently_blocked": false,
+      "current_block_reason": null,
+      "current_block_expiry": null,
+      "current_block_timestamp": null
+    },
+    "block_history": []
+  },
+  "admin_information": {
+    "is_admin_now": false,
+    "adminship_history": []
+  },
+  "user_page": {
+    "has_user_page": true,
+    "user_page_wikitext": "I generally edit Wikipedia when I read an interesting article elsewhere, come to Wikipedia to learn more, then discover issues with the page I'm reading. Once I've edited a page, I generally check back on it every once and a while just to keep tabs on what else is happening to it."
+  },
+  "user_talk_page": {
+    "pages_fetched": [
+      "User talk:Stephen Hui"
+    ],
+    "barnstars_found": [],
+    "barnstar_count": 0,
+    "social_networks_found": {
+      "Clovermoss": {
+        "their_posts_on_my_talk_count": 1
+      }
+    }
+  },
+  "user_contribs": {
+    "recent_edit_count": 683,
+    "recent_contribs": {
+      "article_page_contribs": {
+        "edit_count": 662,
+        "unique_page_count": 463,
+        "edit_counts_by_page": {
+          "Good Food Awards": 6,
+          "Second Battle of Fallujah": 6,
+          "2023 United Nations Climate Change Conference": 5,
+          "Grand Palais": 5,
+          "Mary McGee": 5,
+          "Whipped Cream (DJ)": 5,
+          "BET": 4,
+          "God Knows Where I Am": 4,
+          "Joseph Stilwell": 4,
+          "Oat": 4,
+          "Siksika Nation": 4,
+          "Andor": 3,
+          "Battle of Cape Matapan": 3,
+          "Betty Wragge": 3,
+          "BTR-50": 3,
+          "Chengdu J-36": 3,
+          "Chiang Kai-shek": 3,
+          "Chipa": 3,
+          "Corn dog": 3,
+          "Cut cake": 3,
+          "Dan Fallows": 3,
+          "Emergency Fighter Program": 3,
+          "Giraffe weevil": 3,
+          "Global (cutlery)": 3,
+          "Groupon": 3,
+          "IBM Q System One": 3,
+          "INS Vikramaditya": 3,
+          "J. K. Rowling": 3,
+          "James Rossiter": 3,
+          "Johan Kotze (criminal)": 3,
+          "Ku Klux Klan": 3,
+          "Landmark Worldwide": 3,
+          "Last battle of Bismarck": 3,
+          "Lynx Air": 3,
+          "M75 armored personnel carrier": 3,
+          "MNP Community & Sport Centre": 3,
+          "Mînî Thnî": 3,
+          "Naval Base Ulithi": 3,
+          "Popcorn": 3,
+          "SpaceX Raptor": 3,
+          "Spanish–American War": 3,
+          "The Citadel (mall)": 3,
+          "TR3": 3,
+          "Typhoon Cobra": 3,
+          "USS Card": 3,
+          "USS Lewis B. Puller (ESB-3)": 3,
+          "Vacuum truck": 3,
+          "Zwilling J. A. Henckels": 3,
+          "670": 2,
+          "Agustín Canapino": 2,
+          "Algoma University": 2,
+          "Antilia (building)": 2,
+          "Antonio Salieri": 2,
+          "Arctic char": 2,
+          "Axel Merckx": 2,
+          "B&H Photo": 2,
+          "Balarpur": 2,
+          "Battle of Crysler's Farm": 2,
+          "Big Week": 2,
+          "Bruno Famin": 2,
+          "Caecilian": 2,
+          "Calgary": 2,
+          "Chindro": 2,
+          "Chinese cutter Nansha": 2,
+          "Chiquita": 2,
+          "Citicorp Center engineering crisis": 2,
+          "CubCrafters Carbon Cub EX": 2,
+          "Danielle Smith": 2,
+          "Dassault Mirage 4000": 2,
+          "Doolittle Raid": 2,
+          "Ed Whitlock": 2,
+          "Edith C. Wilson": 2,
+          "Fool's Gold Loaf": 2,
+          "French ship Bretagne (1855)": 2,
+          "Gabriel & Dresden": 2,
+          "German battleship Scharnhorst": 2,
+          "Going am Wilden Kaiser": 2,
+          "Hawthornden Prize": 2,
+          "HESA Kowsar": 2,
+          "Himalayan Art Resources": 2,
+          "History of Korea": 2,
+          "HMS Fowey (1744)": 2,
+          "Hybrid automatic repeat request": 2,
+          "IAI Lavi": 2,
+          "Indian numbering system": 2,
+          "INS Vikrant (2013)": 2,
+          "Investment Capital Ukraine": 2,
+          "Japanese battleship Hiei": 2,
+          "Japanese battleship Nagato": 2,
+          "Japanese spider crab": 2,
+          "Jung Sang-hoon": 2,
+          "Leon Klatzkin": 2,
+          "Lidiane Jones": 2,
+          "Lululemon": 2,
+          "M27 Infantry Automatic Rifle": 2,
+          "Mariah Carey": 2,
+          "Melanie Diener": 2,
+          "MIM-46 Mauler": 2,
+          "MV Seaman Guard Ohio": 2,
+          "Nelson-class battleship": 2,
+          "New London Ledge Light": 2,
+          "Nikki Haley": 2,
+          "Norman Schwarzkopf Jr.": 2,
+          "North Hill Centre": 2,
+          "Paul Brandt": 2,
+          "Pierre Trudeau": 2,
+          "Policlinico of Milan": 2,
+          "Prophecy (Star Trek: Voyager)": 2,
+          "Proposed Peace Treaty on the Korean Peninsula": 2,
+          "Public housing": 2,
+          "Ranch dressing": 2,
+          "Region of Waterloo International Airport": 2,
+          "Republic of China Air Force": 2,
+          "Romania": 2,
+          "Russo-Ukrainian war (2022–present)": 2,
+          "Scott E. Parazynski": 2,
+          "Singapore Army": 2,
+          "Spanish ship Nuestra Señora de la Santísima Trinidad": 2,
+          "Studio Ghibli": 2,
+          "Sörmlandsleden": 2,
+          "Threestripe corydoras": 2,
+          "Travelers Rest, South Carolina": 2,
+          "USS Kentucky (BB-66)": 2,
+          "USS Long Beach (CGN-9)": 2,
+          "USS Mississippi (CGN-40)": 2,
+          "Vegemite": 2,
+          "Vickers Swallow": 2,
+          "Warren Hue": 2,
+          "Water cremation": 2,
+          "Whitney Wolfe Herd": 2,
+          "William Ware Theiss": 2,
+          "XM25 CDTE": 2,
+          "1801–02 Massachusetts's 12th congressional district special election": 1,
+          "2019 24 Hours of Le Mans": 1,
+          "2022 All-Japan Artistic Gymnastics Championships": 1,
+          "2024 Canadian wildfires": 1,
+          "2024 CrowdStrike-related IT outages": 1,
+          "7 Year Bitch": 1,
+          "Aaron Swartz": 1,
+          "Action Park": 1,
+          "Adria Arjona": 1,
+          "Advanced Medium Combat Aircraft": 1,
+          "AIM-174B Gunslinger": 1,
+          "Airbus A380": 1,
+          "Alaska-class cruiser": 1,
+          "All or nothing (armor)": 1,
+          "American Giant": 1,
+          "Andrea True": 1,
+          "Annibale Fontana": 1,
+          "Anti-griddle": 1,
+          "AOL": 1,
+          "ARA General Belgrano": 1,
+          "Arthur Harris": 1,
+          "Ascidiacea": 1,
+          "Ashfaq Munshi": 1,
+          "Ashley MacIsaac": 1,
+          "Attention deficit hyperactivity disorder": 1,
+          "AZP S-60": 1,
+          "Bagger 288": 1,
+          "Baltimore-class cruiser": 1,
+          "Barbara Frum": 1,
+          "Battle of Midway": 1,
+          "Battle of Santiago de Cuba": 1,
+          "Battle of the North Cape": 1,
+          "Battle of Trafalgar": 1,
+          "Beaumont-Hamel Newfoundland Memorial": 1,
+          "BGM-71 TOW": 1,
+          "Big Dig": 1,
+          "Billion Dollar Bully": 1,
+          "Bionix (family of armoured fighting vehicles)": 1,
+          "BioViva": 1,
+          "Boeing P-8 Poseidon": 1,
+          "Brazilian battleship Minas Geraes": 1,
+          "Breen (Star Trek)": 1,
+          "Broadview station (Saskatchewan)": 1,
+          "Broadwell (microarchitecture)": 1,
+          "Bronwyn Bishop": 1,
+          "Brooke Rollins": 1,
+          "Brothers (Star Trek: The Next Generation)": 1,
+          "Canada Industrial Relations Board": 1,
+          "Card Sound Bridge": 1,
+          "Cargojet": 1,
+          "Carroll Baker": 1,
+          "Cas Anvar": 1,
+          "Castor oil": 1,
+          "Ceremonial Guard (Canada)": 1,
+          "Charles F. Bowman": 1,
+          "Charles I of Austria": 1,
+          "ChatGPT": 1,
+          "Chengdu J-7": 1,
+          "Chinatown, Calgary": 1,
+          "Chinese aircraft carrier Liaoning": 1,
+          "Clerodendrum speciosissimum": 1,
+          "Clivio Piccione": 1,
+          "Coatue Management": 1,
+          "Combat Outpost Keating": 1,
+          "Commercial & Financial Chronicle": 1,
+          "Conditions of Peace": 1,
+          "Conscientious objector": 1,
+          "Convair": 1,
+          "Copacabana (1947 film)": 1,
+          "Corydoras": 1,
+          "Cosmoline": 1,
+          "Course: Oblivion": 1,
+          "COVAX-19": 1,
+          "Crater Lakes National Park": 1,
+          "Cuisine of the Pennsylvania Dutch": 1,
+          "Cyclone-class patrol ship": 1,
+          "Daisy Group": 1,
+          "Daniel O. Graham": 1,
+          "David MacKinnon": 1,
+          "Des Moines River": 1,
+          "Destruction of the al-Jalaa building": 1,
+          "DMX": 1,
+          "Dominion (Star Trek)": 1,
+          "Douglas A-4 Skyhawk": 1,
+          "Dragon Skin": 1,
+          "Dred Scott": 1,
+          "Dua Lipa": 1,
+          "Dwayne Wayans": 1,
+          "Earl Warren": 1,
+          "Ed Podivinsky": 1,
+          "Edward Furlong": 1,
+          "Ellis Stanbury": 1,
+          "Emmanuelle (1974 film)": 1,
+          "F-19": 1,
+          "Fast combat support ship": 1,
+          "Fatherland (1994 film)": 1,
+          "Fentanyl": 1,
+          "First Chechen War": 1,
+          "Fischer Projects": 1,
+          "Four (composition)": 1,
+          "Frangibility": 1,
+          "Franz von Holzhausen": 1,
+          "From Morning to Midnight": 1,
+          "Fuck": 1,
+          "Fulbright Program": 1,
+          "Galderma": 1,
+          "General Frank S. Besson-class support vessel": 1,
+          "Genevieve O'Reilly": 1,
+          "George Pickett": 1,
+          "George R. R. Martin": 1,
+          "German corvette Hiddensee": 1,
+          "Giedo van der Garde": 1,
+          "Giovanni Alberto Agnelli": 1,
+          "GloFish": 1,
+          "Grace Jones": 1,
+          "Grand Prix Masters": 1,
+          "Guam": 1,
+          "Gukesh Dommaraju": 1,
+          "HAL Tejas Mk2": 1,
+          "Halifax-class frigate": 1,
+          "Hamas": 1,
+          "Hard Rock Cafe": 1,
+          "Haruna-class destroyer": 1,
+          "Heinkel HeS 40": 1,
+          "Henri d'Harcourt, 1st Duke of Harcourt": 1,
+          "Hexachlorophene": 1,
+          "High endurance cutter": 1,
+          "High Survivability Test Vehicle (Lightweight)": 1,
+          "Hikikomori": 1,
+          "Hillcrest Cemetery": 1,
+          "History of Chile": 1,
+          "Hluti": 1,
+          "HMS Devastation (1871)": 1,
+          "HMS Duke of Wellington (1852)": 1,
+          "HMS St Lawrence (1814)": 1,
+          "HMS Vanguard (23)": 1,
+          "Honeycomb (cereal)": 1,
+          "Horseshoe crab": 1,
+          "Hub Oil explosion": 1,
+          "Icon of the Seas": 1,
+          "Indian Navy": 1,
+          "Isla Vista attacks": 1,
+          "Italian landing helicopter dock Trieste": 1,
+          "James Shaw Jr.": 1,
+          "Japanese aircraft carrier Kaga": 1,
+          "Japanese cruiser Mikuma": 1,
+          "Japanese cruiser Mogami (1934)": 1,
+          "Japanese destroyer Yūdachi (1936)": 1,
+          "Japanese invasion money": 1,
+          "Jewish rye bread": 1,
+          "JH-XX": 1,
+          "Jimmy Wilson (footballer, born 1942)": 1,
+          "Jo Salter": 1,
+          "John Doerr": 1,
+          "John F. Kennedy": 1,
+          "Johnny Marr": 1,
+          "Johnny Witts": 1,
+          "Jordan Bardella": 1,
+          "Jordan Bischel": 1,
+          "JS Kaga": 1,
+          "Juncos Hollinger Racing": 1,
+          "KAI KF-21 Boramae": 1,
+          "Kamchatka (ship)": 1,
+          "Kara Hultgreen": 1,
+          "Kelli Valade": 1,
+          "Killer whales of Eden, New South Wales": 1,
+          "Knox-class frigate": 1,
+          "Kouign-amann": 1,
+          "Kronprinsessegade": 1,
+          "Landing Craft Tank (Rocket)": 1,
+          "Larry Klayman": 1,
+          "Laura McBain": 1,
+          "LegalZoom": 1,
+          "Legend-class cutter": 1,
+          "Lewis Hamilton": 1,
+          "Litoral Gas": 1,
+          "Live at Raji's": 1,
+          "Lizzie Halliday": 1,
+          "Loiyangalani Airport": 1,
+          "Louis Wolfson": 1,
+          "Low-probability-of-intercept radar": 1,
+          "Lyn Lapid": 1,
+          "M320 Grenade Launcher Module": 1,
+          "M44 (cyanide device)": 1,
+          "M51 Skysweeper": 1,
+          "M58 Wolf": 1,
+          "Man Tera Tan Mera": 1,
+          "Manfred Ramminger": 1,
+          "Manfred Roeder": 1,
+          "MapQuest": 1,
+          "Marianne Bachmeier": 1,
+          "Marineland of Canada": 1,
+          "Mark 38 25 mm machine gun system": 1,
+          "Mashhad": 1,
+          "Mathias Rust": 1,
+          "Maximum battleship": 1,
+          "Mazzy Star": 1,
+          "McDonnell Douglas F-15 STOL/MTD": 1,
+          "Meredith Whitney": 1,
+          "Mia Kirshner": 1,
+          "Midtown Madness 3": 1,
+          "Mike Schroepfer": 1,
+          "Mikra British Cemetery": 1,
+          "Milorganite": 1,
+          "Modest Mouse": 1,
+          "Mohammed Alzeer": 1,
+          "Montana-class battleship": 1,
+          "Morley": 1,
+          "Mountain whitefish": 1,
+          "Mulberry harbours": 1,
+          "Mumbo sauce": 1,
+          "MV Mærsk Boston": 1,
+          "MV Stellar Banner": 1,
+          "Natalie Portman": 1,
+          "Nest Wifi": 1,
+          "Nick Anderson (footballer)": 1,
+          "Nick Garcia": 1,
+          "Nigeria Airways Flight 2120": 1,
+          "Nixtamalization": 1,
+          "Nkosazana Dlamini-Zuma": 1,
+          "Norman Cota": 1,
+          "North American F-82 Twin Mustang": 1,
+          "Olga Fikotová": 1,
+          "One Full Year": 1,
+          "Orson Welles Paul Masson advertisements": 1,
+          "Orville Nix": 1,
+          "Orville Redenbacher": 1,
+          "Orville Redenbacher's": 1,
+          "Pablo Rodriguez (Canadian politician)": 1,
+          "Pakistani cuisine": 1,
+          "Palisades del Rey, California": 1,
+          "Panettone": 1,
+          "Pascha (brothel)": 1,
+          "Phonk": 1,
+          "Phosmet": 1,
+          "Photochemistry": 1,
+          "Pickett's Charge": 1,
+          "Pierre-sur-Haute military radio station": 1,
+          "Pittsburgh Police Chief": 1,
+          "Political action committee": 1,
+          "Pollock": 1,
+          "Power Yoga": 1,
+          "PRK Productions": 1,
+          "Queen Elizabeth High School (Calgary)": 1,
+          "Rachael Gunn": 1,
+          "Rachel Maddow": 1,
+          "Railway roundhouse": 1,
+          "Rhino tank": 1,
+          "Ribbon of Saint George": 1,
+          "RIM-174 Standard ERAM": 1,
+          "River-class destroyer (2030s)": 1,
+          "Robert O. Waring": 1,
+          "Robin Boyd Award": 1,
+          "Roger Fenton": 1,
+          "Ronnie Harris (sprinter)": 1,
+          "Rotor ship": 1,
+          "Royal Mail": 1,
+          "Russian rescue ship Kommuna": 1,
+          "Santissimo Salvatore, Naples": 1,
+          "Savarinathen Iruthayaraj": 1,
+          "Saxsquatch": 1,
+          "Scott McNealy": 1,
+          "Scott Storch": 1,
+          "Screen Door (restaurant)": 1,
+          "Sea Fighter": 1,
+          "Serama": 1,
+          "Seta Hagopian": 1,
+          "Sexpionage": 1,
+          "Shantung (fabric)": 1,
+          "Shaukat Khanum Memorial Cancer Hospital and Research Centre": 1,
+          "Shavo Odadjian": 1,
+          "Sheepskin": 1,
+          "Shenyang J-35": 1,
+          "Shun Cutlery": 1,
+          "Singapore": 1,
+          "Siraitia grosvenorii": 1,
+          "Skunk Works": 1,
+          "Soviet cruiser Vladivostok": 1,
+          "Sphere (venue)": 1,
+          "Star Trek Generations": 1,
+          "Steelcase": 1,
+          "Stephen Jurika": 1,
+          "Stephen K. Benjamin": 1,
+          "Stunt girl": 1,
+          "Sukhoi S-70 Okhotnik-B": 1,
+          "Sumner Redstone": 1,
+          "Sun Microsystems": 1,
+          "Sunarto Sumoprawiro": 1,
+          "Suncor Energy": 1,
+          "Syria": 1,
+          "TAI Anka-3": 1,
+          "Taregh-class speedboat": 1,
+          "Terminal lucidity": 1,
+          "The Last Stand of the Tin Can Sailors": 1,
+          "The Winds of Winter": 1,
+          "Thea Andrews": 1,
+          "Thierry Rautureau": 1,
+          "Thomas Cook": 1,
+          "Tony McGuinness (musician)": 1,
+          "Torra di Roccapina": 1,
+          "TR-3 Black Manta": 1,
+          "Trumpf": 1,
+          "Trusted Platform Module": 1,
+          "TT211": 1,
+          "Tulsi Gabbard": 1,
+          "Tunicate": 1,
+          "Type 039A/B/C submarine": 1,
+          "Type 041 submarine": 1,
+          "Type 730 CIWS": 1,
+          "Type B ship": 1,
+          "Ulexite": 1,
+          "Underwriter's knot": 1,
+          "United States Capitol dome": 1,
+          "USCGC Taney": 1,
+          "USNS Guam": 1,
+          "USS America (CV-66)": 1,
+          "USS John F. Kennedy (CV-67)": 1,
+          "USS Mississinewa (AO-59)": 1,
+          "USS New Jersey (BB-62)": 1,
+          "USS Vincennes": 1,
+          "Utah Saints": 1,
+          "Volkspark Friedrichshain": 1,
+          "Warsaw Uprising": 1,
+          "Wayans family": 1,
+          "Weapons Tight": 1,
+          "What We Do in the Shadows (TV series)": 1,
+          "William J. Colvill": 1,
+          "Yahoo Japan": 1,
+          "Yamato-class battleship": 1,
+          "Yokosuka Naval Arsenal": 1,
+          "Yoon Suk Yeol": 1
+        }
+      },
+      "article_talk_page_contribs": {
+        "edit_count": 1,
+        "unique_page_count": 1,
+        "edit_counts_by_page": {
+          "Talk:Studio Ghibli": 1
+        }
+      },
+      "user_talk_page_contribs": {
+        "edit_count": 5,
+        "unique_page_count": 4,
+        "edit_counts_by_page": {
+          "User talk:Sideswipe9th": 2,
+          "User talk:Doma-w": 1,
+          "User talk:Stephen Hui": 1,
+          "User talk:Tjayyaneth": 1
+        }
+      },
+      "WP_page_contribs": {
+        "edit_count": 12,
+        "unique_page_count": 11,
+        "edit_counts_by_page": {
+          "Wikipedia:Articles for deletion/Ronnie Harris (sprinter)": 2,
+          "Wikipedia:Administrator intervention against vandalism": 1,
+          "Wikipedia:Articles for deletion/Kudamuck": 1,
+          "Wikipedia:Articles for deletion/Log/2024 December 5": 1,
+          "Wikipedia:Articles for deletion/Log/2024 November 30": 1,
+          "Wikipedia:Bot requests": 1,
+          "Wikipedia:Requested moves/Technical requests": 1,
+          "Wikipedia:Requests for page protection/Increase": 1,
+          "Wikipedia:WikiProject Deletion sorting/Kerala": 1,
+          "Wikipedia:WikiProject Deletion sorting/Sportspeople": 1,
+          "Wikipedia:WikiProject Korea/Assessment": 1
+        }
+      },
+      "WP_talk_page_contribs": {
+        "edit_count": 0,
+        "unique_page_count": 0,
+        "edit_counts_by_page": {}
+      }
+    }
+  },
+  "talk_activity": {
+    "article_talk_page": {
+      "posts_by_page": {
+        "Talk:Studio Ghibli": [
+          "== Wordmark versus logo ==\n\n{{reply to|Imaginatorium}} You reverted an edit I made recaptioning this:\n\n[[File:Studio Ghibli wordmark.svg|200 px]]\n\n...from \"logo\" to \"wordmark\".\n\nYour explanation was \"does not meet definition of wordmark\".\n\nWikipedia's own definition of \"wordmark\" is:\n\n: A wordmark [...] is a distinct text-only typographic treatment of the name of a product, service, company, organization, or institution which is used for purposes of identification and branding.\n\n...while the definition of \"logo\" is:\n\n: A logo [...] is a graphic mark, emblem, or symbol used to aid and promote public identification and recognition. \n\nThe image I recaptioned consists solely of text, and contains no graphics. Also, the infobox says *this* image, which does contain a graphic, is Studio Ghibli's logo:\n\n[[:File:Studio Ghibli logo.svg]]\n\nGiven that, the image I recaptioned seems to very clearly be a wordmark, not a logo.\n\nCan you elaborate on why you disagree?\n\n[[User:Stephen Hui|Stephen Hui]] ([[User talk:Stephen Hui|talk]]) 16:31, 3 November 2023 (UTC)"
+        ]
+      }
+    },
+    "user_talk_page": {
+      "posts_by_page": {
+        "User talk:Sideswipe9th": [
+          "== [[WP:OWNBEHAVIOR]] ==\n\nAfter you reverted two separate good-faith edits of mine on [[J. K. Rowling]] within a few minutes of me making them, I decided to read through your previous edit history on the article.\n\nA comparison of your many reverts to [[WP:OWNBEHAVIOR]] is illuminating:\n\n{| class=\"wikitable\"\n|+ \n|-\n! Edit date !! [[WP:OWNBEHAVIOR]] !! Your edit summary\n|-\n| 19:17, 11 March 2024‎ || An editor reverts a change simply because the editor finds it \"unnecessary\"|| we don't need to document every single Twitter spat Rowling gets into\n|-\n| 05:13, 11 March 2024‎|| An editor reverts justified article changes by different editors repeatedly over an extended period to protect a certain version, stable or not|| Per extensive workshopping [...] please discuss any substantive changes on the talk page\n|-\n| 04:40, 11 March 2024|| An editor disputes minor edits concerning layout|| this change broke text verification integrity by moving a footnote away from the text it was supporting'' (the change moved the footnote over by a whopping nine words)\n|-\n| 03:09, 14 August 2023‎||An editor reverts justified article changes by different editors repeatedly over an extended period to protect a certain version, stable or not||This text was extensively discussed during the last featured article review and has a broad consensus. Please engage on the talk page why you think this content needs to change\n|-\n|03:51, 29 January 2023‎ ||An editor reverts justified article changes by different editors repeatedly over an extended period to protect a certain version, stable or not|| this particular bit of text has been workshopped several times now\n|-\n|01:55, 26 June 2022‎ ||An editor reverts a good-faith change without providing an edit summary that refers to relevant Wikipedia policies and guidelines||restoration of content\n|- \n|01:32, 26 June 2022||An editor reverts a good-faith change without providing an edit summary that refers to relevant Wikipedia policies and guidelines||restoration of revision\n|-\n|01:19, 26 June 2022‎ ||An editor reverts a good-faith change without providing an edit summary that refers to relevant Wikipedia policies and guidelines||Restoration of edits\n|}\n\nAs the kids say these days, I suggest that you touch grass.\n\n[[User:Stephen Hui|Stephen Hui]] ([[User talk:Stephen Hui|talk]]) 02:12, 12 March 2024 (UTC)"
+        ],
+        "User talk:Tjayyaneth": [
+          "== Nomination of [[:Kudamuck]] for deletion ==\n<div class=\"afd-notice\">\n<div class=\"floatleft\" style=\"margin-bottom:0;\">[[File:Ambox warning orange.svg|48px|alt=|link=]]</div>A discussion is taking place as to whether the article [[:Kudamuck]] is suitable for inclusion in Wikipedia according to [[Wikipedia:List of policies and guidelines|Wikipedia's policies and guidelines]] or whether it should be [[Wikipedia:Deletion policy|deleted]].\n\nThe article will be discussed at '''[[Wikipedia:Articles for deletion/Kudamuck]]''' until a consensus is reached, and anyone, including you, is welcome to contribute to the discussion. The nomination will explain the policies and guidelines which are of concern. The discussion focuses on high-quality evidence and our policies and guidelines.\n\nUsers may edit the article during the discussion, including to improve the article to address concerns raised in the discussion. However, do not remove the article-for-deletion notice from the top of the article until the discussion has finished.<!-- Template:Afd notice --></div> [[User:Stephen Hui|Stephen Hui]] ([[User talk:Stephen Hui|talk]]) 06:15, 30 November 2024 (UTC)"
+        ]
+      }
+    },
+    "article_talk_social_networks_found": {
+      "Imaginatorium": {
+        "shared_discussion_count": 1
+      }
+    }
+  },
+  "article_edit_activity": {
+    "distribution": {
+      "total_edit_count": 500,
+      "buckets": {
+        "<100": {
+          "count": 399,
+          "percent": 79.8
+        },
+        "100-500": {
+          "count": 84,
+          "percent": 16.8
+        },
+        "500-1000": {
+          "count": 11,
+          "percent": 2.2
+        },
+        "1000+": {
+          "count": 6,
+          "percent": 1.2
+        }
+      }
+    },
+    "diff_sample": {
+      "Mashhad": [
+        {
+          "revid": 1330853191,
+          "parentid": 1330527670,
+          "added_char_count": 30,
+          "added_text": "population|third-most-populous",
+          "removed_char_count": 31,
+          "removed_text": "population|second-most-populous"
+        }
+      ],
+      "Underwriter's knot": [
+        {
+          "revid": 1312131521,
+          "parentid": 1303183970,
+          "added_char_count": 11,
+          "added_text": "pulled.<ref",
+          "removed_char_count": 11,
+          "removed_text": "yanked.<ref"
+        }
+      ],
+      "Manfred Ramminger": [
+        {
+          "revid": 1305266220,
+          "parentid": 1229797992,
+          "added_char_count": 5,
+          "added_text": "sedan",
+          "removed_char_count": 5,
+          "removed_text": "Sedan"
+        }
+      ],
+      "Nkosazana Dlamini-Zuma": [
+        {
+          "revid": 1304025094,
+          "parentid": 1298069069,
+          "added_char_count": 2,
+          "added_text": "to",
+          "removed_char_count": 2,
+          "removed_text": "in"
+        }
+      ],
+      "Ed Whitlock": [
+        {
+          "revid": 1303078006,
+          "parentid": 1303077884,
+          "added_char_count": 15,
+          "added_text": "==Age records==",
+          "removed_char_count": 40,
+          "removed_text": "==World age records set by Ed Whitlock=="
+        },
+        {
+          "revid": 1303077884,
+          "parentid": 1300353471,
+          "added_char_count": 8,
+          "added_text": "Whitlock",
+          "removed_char_count": 24,
+          "removed_text": "The Milton, Ont., native"
+        }
+      ],
+      "Yahoo Japan": [
+        {
+          "revid": 1301840188,
+          "parentid": 1300937710,
+          "added_char_count": 17,
+          "added_text": "Japan.{{clarify}}",
+          "removed_char_count": 6,
+          "removed_text": "Japan."
+        }
+      ],
+      "Japanese cruiser Mogami (1934)": [
+        {
+          "revid": 1300378415,
+          "parentid": 1297799700,
+          "added_char_count": 13,
+          "added_text": "equipment and",
+          "removed_char_count": 16,
+          "removed_text": "their equipment,"
+        }
+      ],
+      "Dragon Skin": [
+        {
+          "revid": 1299388254,
+          "parentid": 1295664230,
+          "added_char_count": 10,
+          "added_text": "military]]",
+          "removed_char_count": 10,
+          "removed_text": "Military]]"
+        }
+      ],
+      "USS Vincennes": [
+        {
+          "revid": 1298928158,
+          "parentid": 1076081879,
+          "added_char_count": 45,
+          "added_text": "{{sclass|Ticonderoga|cruiser|1}}, 2005, 1988,",
+          "removed_char_count": 42,
+          "removed_text": "{{sclass|Ticonderoga|cruiser|1}} 2005 1988"
+        }
+      ],
+      "7 Year Bitch": [
+        {
+          "revid": 1298695894,
+          "parentid": 1292127884,
+          "added_char_count": 7,
+          "added_text": "members",
+          "removed_char_count": 7,
+          "removed_text": "Members"
+        }
+      ],
+      "Kouign-amann": [
+        {
+          "revid": 1298523683,
+          "parentid": 1298494282,
+          "added_char_count": 6,
+          "added_text": "butter",
+          "removed_char_count": 31,
+          "removed_text": "the butter (in fact the butter)"
+        }
+      ],
+      "Fischer Projects": [
+        {
+          "revid": 1298215779,
+          "parentid": 1271331860,
+          "added_char_count": 4,
+          "added_text": "have",
+          "removed_char_count": 3,
+          "removed_text": "has"
+        }
+      ],
+      "Chinatown, Calgary": [
+        {
+          "revid": 1297169391,
+          "parentid": 1258866629,
+          "added_char_count": 6,
+          "added_text": "town's",
+          "removed_char_count": 6,
+          "removed_text": "Town's"
+        }
+      ],
+      "Andor": [
+        {
+          "revid": 1296853889,
+          "parentid": 1296853379,
+          "added_char_count": 22,
+          "added_text": "Hollywood\".<ref>{{cite",
+          "removed_char_count": 59,
+          "removed_text": "Hollywood\" by [[fridging]] the Vel/Cinta couple.<ref>{{cite"
+        },
+        {
+          "revid": 1296853379,
+          "parentid": 1296847968,
+          "added_char_count": 41,
+          "added_text": "low-level black-market projects, but son,",
+          "removed_char_count": 46,
+          "removed_text": "low level black market projects. But, she son;"
+        },
+        {
+          "revid": 1296847968,
+          "parentid": 1296699945,
+          "added_char_count": 58,
+          "added_text": "and killing Mothma Lonni him destroys joined the rebellion",
+          "removed_char_count": 95,
+          "removed_text": "either or up successfully terminating her him Lonni covers up his tracks by destroying defected"
+        }
+      ],
+      "Adria Arjona": [
+        {
+          "revid": 1296634076,
+          "parentid": 1296414773,
+          "added_char_count": 26,
+          "added_text": "2024 Kravitz]],<ref>{{cite",
+          "removed_char_count": 46,
+          "removed_text": "Kravitz]], released in August 2024,<ref>{{cite"
+        }
+      ],
+      "Genevieve O'Reilly": [
+        {
+          "revid": 1296630969,
+          "parentid": 1296593104,
+          "added_char_count": 8,
+          "added_text": "O'Reilly",
+          "removed_char_count": 8,
+          "removed_text": "O'reilly"
+        }
+      ],
+      "William Ware Theiss": [
+        {
+          "revid": 1295684887,
+          "parentid": 1295684480,
+          "added_char_count": 103,
+          "added_text": "[https://www.startrek.com/en-ca/news/william-ware-theiss-star-trek-couture Biography on StarTrek.com] *",
+          "removed_char_count": 0,
+          "removed_text": ""
+        },
+        {
+          "revid": 1295684480,
+          "parentid": 1282194299,
+          "added_char_count": 121,
+          "added_text": "==Illness and death== Theiss died of complications from [[AIDS]] on December 15, 1992, age 61.<ref name=\"startrek.com\" />",
+          "removed_char_count": 121,
+          "removed_text": "==Illness and death== Theiss died of complications from [[AIDS]] on December 15, 1992, age 61.<ref name=\"startrek.com\" />"
+        }
+      ],
+      "Rachael Gunn": [
+        {
+          "revid": 1295171736,
+          "parentid": 1295119225,
+          "added_char_count": 9,
+          "added_text": "Olympics.",
+          "removed_char_count": 23,
+          "removed_text": "[[2024 Olympic Games]]."
+        }
+      ],
+      "Rotor ship": [
+        {
+          "revid": 1294269220,
+          "parentid": 1292840865,
+          "added_char_count": 11,
+          "added_text": "''Barbara''",
+          "removed_char_count": 9,
+          "removed_text": "\"Barbara\""
+        }
+      ],
+      "Gukesh Dommaraju": [
+        {
+          "revid": 1293512532,
+          "parentid": 1292954778,
+          "added_char_count": 16,
+          "added_text": "IV (in school]])",
+          "removed_char_count": 25,
+          "removed_text": "IV, that is, in school]],"
+        }
+      ],
+      "Bagger 288": [
+        {
+          "revid": 1293352582,
+          "parentid": 1275472122,
+          "added_char_count": 25,
+          "added_text": "the Bagger 288 is visible",
+          "removed_char_count": 35,
+          "removed_text": "it's possible to see the Bagger 288"
+        }
+      ],
+      "Palisades del Rey, California": [
+        {
+          "revid": 1293187891,
+          "parentid": 1292827481,
+          "added_char_count": 7,
+          "added_text": "coexist",
+          "removed_char_count": 8,
+          "removed_text": "co-exist"
+        }
+      ],
+      "Taregh-class speedboat": [
+        {
+          "revid": 1293155105,
+          "parentid": 1274052081,
+          "added_char_count": 22,
+          "added_text": "high-speed patrol boat",
+          "removed_char_count": 22,
+          "removed_text": "High Speed Patrol Boat"
+        }
+      ],
+      "Threestripe corydoras": [
+        {
+          "revid": 1292853174,
+          "parentid": 1292852281,
+          "added_char_count": 31,
+          "added_text": "Corydoras trilineatus, 2010.jpg",
+          "removed_char_count": 26,
+          "removed_text": "Corydoras_trilineatus3.jpg"
+        },
+        {
+          "revid": 1292852281,
+          "parentid": 1277257061,
+          "added_char_count": 11,
+          "added_text": "the Amazon,",
+          "removed_char_count": 7,
+          "removed_text": "[Amazon"
+        }
+      ],
+      "HMS Vanguard (23)": [
+        {
+          "revid": 1292664475,
+          "parentid": 1286199480,
+          "added_char_count": 117,
+          "added_text": "attack aircraft entered ended since the Buccaneer could attack the ''Sverdlov''s with relative ease. ''Vanguard'' She",
+          "removed_char_count": 100,
+          "removed_text": "began to an aircraft that could attack the ''Sverdlov''s with relative ease, ended. she ''Vanguard''"
+        }
+      ],
+      "Shavo Odadjian": [
+        {
+          "revid": 1292273217,
+          "parentid": 1290769023,
+          "added_char_count": 11,
+          "added_text": "[[Armenia]]",
+          "removed_char_count": 28,
+          "removed_text": "[[Armenia]], {{nowrap|[[]]}}"
+        }
+      ],
+      "MV Stellar Banner": [
+        {
+          "revid": 1292017793,
+          "parentid": 1290989765,
+          "added_char_count": 24,
+          "added_text": "flooding in tank]]s.<ref",
+          "removed_char_count": 30,
+          "removed_text": "tank]]s to begin to flood.<ref"
+        }
+      ],
+      "Nixtamalization": [
+        {
+          "revid": 1291271944,
+          "parentid": 1283060095,
+          "added_char_count": 25,
+          "added_text": "[[tryptophan]] tryptophan",
+          "removed_char_count": 25,
+          "removed_text": "tryptophan [[tryptophan]]"
+        }
+      ],
+      "GloFish": [
+        {
+          "revid": 1291206490,
+          "parentid": 1290206715,
+          "added_char_count": 23,
+          "added_text": "prohibited\".<ref>{{cite",
+          "removed_char_count": 24,
+          "removed_text": "prohibited.\".<ref>{{cite"
+        }
+      ],
+      "DMX": [
+        {
+          "revid": 1287747332,
+          "parentid": 1287355673,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 9,
+          "removed_text": "to Narcan"
+        }
+      ],
+      "Ashley MacIsaac": [
+        {
+          "revid": 1287587481,
+          "parentid": 1281712320,
+          "added_char_count": 10,
+          "added_text": "[[piano]],",
+          "removed_char_count": 10,
+          "removed_text": "[[Piano]],"
+        }
+      ],
+      "High Survivability Test Vehicle (Lightweight)": [
+        {
+          "revid": 1287586509,
+          "parentid": 1271846171,
+          "added_char_count": 12,
+          "added_text": "Engines|Avco",
+          "removed_char_count": 12,
+          "removed_text": "Engines|Avro"
+        }
+      ],
+      "Marineland of Canada": [
+        {
+          "revid": 1287252455,
+          "parentid": 1287079716,
+          "added_char_count": 5,
+          "added_text": "mayor",
+          "removed_char_count": 5,
+          "removed_text": "Mayor"
+        }
+      ],
+      "Chengdu J-7": [
+        {
+          "revid": 1286497310,
+          "parentid": 1286130687,
+          "added_char_count": 3,
+          "added_text": "was",
+          "removed_char_count": 2,
+          "removed_text": "is"
+        }
+      ],
+      "Grace Jones": [
+        {
+          "revid": 1282079171,
+          "parentid": 1281497359,
+          "added_char_count": 6,
+          "added_text": "State,",
+          "removed_char_count": 6,
+          "removed_text": "state,"
+        }
+      ],
+      "Andrea True": [
+        {
+          "revid": 1281917815,
+          "parentid": 1268425421,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 283,
+          "removed_text": "[[File:Michael Manley.jpg|thumb|right|180px|Under the administration of Prime Minister [[Michael Manley]], the Jamaican government banned money transfers in retaliation to sanctions imposed by the U.S., forcing True to invest her pay into recording a demo of \"[[More, More, More]]\"]]"
+        }
+      ],
+      "Brooke Rollins": [
+        {
+          "revid": 1281825258,
+          "parentid": 1281028402,
+          "added_char_count": 10,
+          "added_text": "has served",
+          "removed_char_count": 10,
+          "removed_text": "is serving"
+        }
+      ],
+      "Romania": [
+        {
+          "revid": 1281711138,
+          "parentid": 1281710752,
+          "added_char_count": 12,
+          "added_text": "cancellation",
+          "removed_char_count": 12,
+          "removed_text": "cansellation"
+        },
+        {
+          "revid": 1281710752,
+          "parentid": 1281653491,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 102,
+          "removed_text": "Like the rest of the world, Romania was hit by the [[COVID-19 pandemic in Romania|COVID-19 pandemic]]."
+        }
+      ],
+      "KAI KF-21 Boramae": [
+        {
+          "revid": 1281242036,
+          "parentid": 1280662648,
+          "added_char_count": 7,
+          "added_text": "provide",
+          "removed_char_count": 7,
+          "removed_text": "Provide"
+        }
+      ],
+      "Marianne Bachmeier": [
+        {
+          "revid": 1280875524,
+          "parentid": 1280859306,
+          "added_char_count": 28,
+          "added_text": "name=NorddeutscherRundfunk/>",
+          "removed_char_count": 36,
+          "removed_text": "name=NorddeutscherRundfunk/>.Alloooo"
+        }
+      ],
+      "Galderma": [
+        {
+          "revid": 1274789655,
+          "parentid": 1274414985,
+          "added_char_count": 3,
+          "added_text": "its",
+          "removed_char_count": 0,
+          "removed_text": ""
+        }
+      ],
+      "Mia Kirshner": [
+        {
+          "revid": 1272125729,
+          "parentid": 1257780697,
+          "added_char_count": 416,
+          "added_text": "Canada,<ref name=\"ref3\">{{cite web | url = http://www.thelwordonline.com/Mia_NYTarticle.shtml | title = Mia Kirshner basks in an erotic mystery | publisher = Thelwordonline.com | date = April 5, 2004 | access-date = August 19, 2010 | archive-date = April 9, 2019 | archive-url = https://web.archive.org/web/20190409154010/http://www.thelwordonline.com/Mia_NYTarticle.shtml | url-status = dead }}</ref> name=\"ref3\" />",
+          "removed_char_count": 422,
+          "removed_text": "Canada,{{fact|date=August 2024}} name=\"ref3\">{{cite web | url = http://www.thelwordonline.com/Mia_NYTarticle.shtml | title = Mia Kirshner basks in an erotic mystery | publisher = Thelwordonline.com | date = April 5, 2004 | access-date = August 19, 2010 | archive-date = April 9, 2019 | archive-url = https://web.archive.org/web/20190409154010/http://www.thelwordonline.com/Mia_NYTarticle.shtml | url-status = dead }}</ref>"
+        }
+      ],
+      "Barbara Frum": [
+        {
+          "revid": 1271466880,
+          "parentid": 1260557803,
+          "added_char_count": 23,
+          "added_text": "tributes retrospectives",
+          "removed_char_count": 25,
+          "removed_text": "a tribute a retrospective"
+        }
+      ],
+      "Chinese cutter Nansha": [
+        {
+          "revid": 1271145291,
+          "parentid": 1271145042,
+          "added_char_count": 10,
+          "added_text": "Her top is",
+          "removed_char_count": 26,
+          "removed_text": "''CCG 5901'' ship has a of"
+        },
+        {
+          "revid": 1271145042,
+          "parentid": 1269414937,
+          "added_char_count": 27,
+          "added_text": "tons, more than double that",
+          "removed_char_count": 33,
+          "removed_text": "tons. She is three times the size"
+        }
+      ],
+      "Robert O. Waring": [
+        {
+          "revid": 1268940639,
+          "parentid": 1265413804,
+          "added_char_count": 11,
+          "added_text": "Franjieh]],",
+          "removed_char_count": 10,
+          "removed_text": "Franjieh]]"
+        }
+      ],
+      "Dan Fallows": [
+        {
+          "revid": 1268940474,
+          "parentid": 1268940351,
+          "added_char_count": 17,
+          "added_text": "Engineer Martin]]",
+          "removed_char_count": 72,
+          "removed_text": "Technical director Martin in Formula One|Aston Martin Formula One Team]]"
+        },
+        {
+          "revid": 1268940351,
+          "parentid": 1268940027,
+          "added_char_count": 41,
+          "added_text": "was Team]] until 2024,<ref>{{cite and was",
+          "removed_char_count": 52,
+          "removed_text": "is currently Team]],<ref>{{cite having served as the"
+        },
+        {
+          "revid": 1268940027,
+          "parentid": 1255958787,
+          "added_char_count": 418,
+          "added_text": "In would join team in 2022 as technical director.<ref>{{cite Fallows left this role in November 2024.<ref>{{cite news |author=<!-- not stated --> |date=12 Nov 2024 |title=Fallows leaves Aston Martin technical role ahead of Newey arrival |url=https://www.reuters.com/sports/formula1/fallows-leaves-aston-martin-technical-role-ahead-newey-arrival-2024-11-12 |work= |location= |publisher= |access-date=12 Jan 2025}}</ref>",
+          "removed_char_count": 72,
+          "removed_text": "On 25 had agreed a contract with team, to commence on 2 2022.<ref>{{cite"
+        }
+      ],
+      "Hluti": [
+        {
+          "revid": 1268939323,
+          "parentid": 1265726904,
+          "added_char_count": 17,
+          "added_text": "Eswatini project,",
+          "removed_char_count": 31,
+          "removed_text": "[[Eswatini]] , project in Hluti"
+        }
+      ],
+      "Giovanni Alberto Agnelli": [
+        {
+          "revid": 1267868754,
+          "parentid": 1220182194,
+          "added_char_count": 37,
+          "added_text": "cancer, was undergoing treatment, and",
+          "removed_char_count": 65,
+          "removed_text": "cancer and was engaged in a fight to defeat it; he told reporters"
+        }
+      ],
+      "Arctic char": [
+        {
+          "revid": 1267605380,
+          "parentid": 1267604861,
+          "added_char_count": 14,
+          "added_text": "are located in",
+          "removed_char_count": 21,
+          "removed_text": "take place in various"
+        },
+        {
+          "revid": 1267604861,
+          "parentid": 1262447278,
+          "added_char_count": 16,
+          "added_text": "Hazen]], extends",
+          "removed_char_count": 14,
+          "removed_text": "Hazen]] extend"
+        }
+      ],
+      "TT211": [
+        {
+          "revid": 1267380126,
+          "parentid": 1151621365,
+          "added_char_count": 134,
+          "added_text": "He TT211 is located in [[Deir el-Medina]], part of the [[Theban Necropolis]], on the west bank of the [[Nile]], opposite to [[Luxor]].",
+          "removed_char_count": 137,
+          "removed_text": "located in [[Deir el-Medina]], part of the [[Theban Necropolis]], on the west bank of the [[Nile]], opposite to [[Luxor]]. TT211 is Paneb"
+        }
+      ],
+      "Hillcrest Cemetery": [
+        {
+          "revid": 1267379446,
+          "parentid": 1258843935,
+          "added_char_count": 6,
+          "added_text": "graves",
+          "removed_char_count": 7,
+          "removed_text": "burials"
+        }
+      ],
+      "Nick Garcia": [
+        {
+          "revid": 1267379003,
+          "parentid": 1258679725,
+          "added_char_count": 10,
+          "added_text": "college===",
+          "removed_char_count": 10,
+          "removed_text": "College==="
+        }
+      ],
+      "Conditions of Peace": [
+        {
+          "revid": 1267378645,
+          "parentid": 1255319927,
+          "added_char_count": 57,
+          "added_text": "Carr]], and first published in 1942.<ref>{{cite the book,",
+          "removed_char_count": 57,
+          "removed_text": "Carr]].<ref>{{cite his 1942 book ''Conditions of Peace'',"
+        }
+      ],
+      "Balarpur": [
+        {
+          "revid": 1267378081,
+          "parentid": 1267378010,
+          "added_char_count": 7,
+          "added_text": "one one",
+          "removed_char_count": 3,
+          "removed_text": "1 1"
+        },
+        {
+          "revid": 1267378010,
+          "parentid": 1237670198,
+          "added_char_count": 3,
+          "added_text": "two",
+          "removed_char_count": 1,
+          "removed_text": "2"
+        }
+      ],
+      "William J. Colvill": [
+        {
+          "revid": 1266795529,
+          "parentid": 1262515340,
+          "added_char_count": 10,
+          "added_text": "The forced",
+          "removed_char_count": 16,
+          "removed_text": "Both would force"
+        }
+      ],
+      "George Pickett": [
+        {
+          "revid": 1266794276,
+          "parentid": 1262379210,
+          "added_char_count": 21,
+          "added_text": "(state)|Washington]],",
+          "removed_char_count": 27,
+          "removed_text": "(state)|Washington state]],"
+        }
+      ],
+      "Pickett's Charge": [
+        {
+          "revid": 1266793519,
+          "parentid": 1255780520,
+          "added_char_count": 20,
+          "added_text": "division commanders.",
+          "removed_char_count": 38,
+          "removed_text": "division commanders under the command."
+        }
+      ],
+      "Cut cake": [
+        {
+          "revid": 1266136053,
+          "parentid": 1266135966,
+          "added_char_count": 10,
+          "added_text": "''qiegao''",
+          "removed_char_count": 10,
+          "removed_text": "''Qiegao''"
+        },
+        {
+          "revid": 1266135966,
+          "parentid": 1266135830,
+          "added_char_count": 16,
+          "added_text": "east-China-style",
+          "removed_char_count": 16,
+          "removed_text": "east China style"
+        },
+        {
+          "revid": 1266135830,
+          "parentid": 1260104257,
+          "added_char_count": 50,
+          "added_text": "peddlers peddlers peddlers' peddlers peddlers.<ref",
+          "removed_char_count": 70,
+          "removed_text": "[[peddler]]s [[peddler]]s [[peddler]]s' [[peddler]]s [[peddler]]s.<ref"
+        }
+      ],
+      "Four (composition)": [
+        {
+          "revid": 1266135173,
+          "parentid": 1253030680,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 20,
+          "removed_text": "jazz trumpeter Miles"
+        }
+      ],
+      "Chengdu J-36": [
+        {
+          "revid": 1266122471,
+          "parentid": 1266110075,
+          "added_char_count": 1,
+          "added_text": "a",
+          "removed_char_count": 3,
+          "removed_text": "the"
+        },
+        {
+          "revid": 1266026445,
+          "parentid": 1266024878,
+          "added_char_count": 33,
+          "added_text": "an aircraft believed to be a J-36",
+          "removed_char_count": 73,
+          "removed_text": "two technology demonstrator aircraft, one of which designed by CAIC, were"
+        },
+        {
+          "revid": 1266024878,
+          "parentid": 1266009366,
+          "added_char_count": 11,
+          "added_text": "1 confirmed",
+          "removed_char_count": 2,
+          "removed_text": "1+"
+        }
+      ],
+      "Scott McNealy": [
+        {
+          "revid": 1266037430,
+          "parentid": 1258655036,
+          "added_char_count": 19,
+          "added_text": "advisory board.<ref",
+          "removed_char_count": 19,
+          "removed_text": "Advisory Board.<ref"
+        }
+      ],
+      "Sun Microsystems": [
+        {
+          "revid": 1266037025,
+          "parentid": 1261060507,
+          "added_char_count": 23,
+          "added_text": "acquisition.<ref>{{cite",
+          "removed_char_count": 40,
+          "removed_text": "acquisition of Sun by Oracle.<ref>{{cite"
+        }
+      ],
+      "One Full Year": [
+        {
+          "revid": 1266030920,
+          "parentid": 1075168370,
+          "added_char_count": 22,
+          "added_text": "by Records]]. Produced",
+          "removed_char_count": 21,
+          "removed_text": "on Records]].Produced"
+        }
+      ],
+      "Investment Capital Ukraine": [
+        {
+          "revid": 1266030759,
+          "parentid": 1266030468,
+          "added_char_count": 32,
+          "added_text": "{{Copy edit|date=December 2024}}",
+          "removed_char_count": 0,
+          "removed_text": ""
+        },
+        {
+          "revid": 1266030468,
+          "parentid": 1265661177,
+          "added_char_count": 94,
+          "added_text": "[[Valeriya Hontareva]] served as the group's chairperson from before resigning<ref>{{Cite Bank",
+          "removed_char_count": 100,
+          "removed_text": "During the group's chairwoman was [[Valeriya Hontareva]], who left its position<ref>{{Cite bank also"
+        }
+      ],
+      "Savarinathen Iruthayaraj": [
+        {
+          "revid": 1266029755,
+          "parentid": 1152130676,
+          "added_char_count": 15,
+          "added_text": "co-consecrators",
+          "removed_char_count": 41,
+          "removed_text": "Savarinathen Co-consecrators Savarinathen"
+        }
+      ],
+      "Going am Wilden Kaiser": [
+        {
+          "revid": 1266029484,
+          "parentid": 1266029284,
+          "added_char_count": 71,
+          "added_text": "Municipalities neighboring Going include Tirol]]; Tirol]]; and Tirol]].",
+          "removed_char_count": 58,
+          "removed_text": "''Neighbouring municipalities:'' Tirol]], Tirol]], Tirol]]"
+        },
+        {
+          "revid": 1266029284,
+          "parentid": 1263663335,
+          "added_char_count": 10,
+          "added_text": "1,849 five",
+          "removed_char_count": 6,
+          "removed_text": "1849 5"
+        }
+      ],
+      "Jordan Bischel": [
+        {
+          "revid": 1266028288,
+          "parentid": 1265000226,
+          "added_char_count": 10,
+          "added_text": "coach, and",
+          "removed_char_count": 20,
+          "removed_text": "coach and who is the"
+        }
+      ],
+      "Live at Raji's": [
+        {
+          "revid": 1266027844,
+          "parentid": 1173400152,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 3,
+          "removed_text": "and"
+        }
+      ],
+      "JH-XX": [
+        {
+          "revid": 1266027639,
+          "parentid": 1265843670,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 3,
+          "removed_text": "The"
+        }
+      ],
+      "Landmark Worldwide": [
+        {
+          "revid": 1266023251,
+          "parentid": 1266021592,
+          "added_char_count": 257,
+          "added_text": "events.{{sfn|Stassen|2008}}<ref name=Allinson>{{Cite journal|last=Allinson|first=Amber|date=April 2014|title=Mind over Matter|url=https://issuu.com/runwildmedia/docs/mayf_apr_14_issuu|journal=The Mayfair Magazine (U.K.)|volume=April 2014|pages=72–73}}</ref>",
+          "removed_char_count": 44,
+          "removed_text": "events.{{sfn|Stassen|2008}}{{ r | Allinson}}"
+        },
+        {
+          "revid": 1266021592,
+          "parentid": 1266020901,
+          "added_char_count": 12,
+          "added_text": "Corporation,",
+          "removed_char_count": 16,
+          "removed_text": "[[Corporation]],"
+        },
+        {
+          "revid": 1266020901,
+          "parentid": 1258440934,
+          "added_char_count": 34,
+          "added_text": "[[large-group awareness training]]",
+          "removed_char_count": 34,
+          "removed_text": "[[Large Group Awareness Training]]"
+        }
+      ],
+      "Lululemon": [
+        {
+          "revid": 1266020622,
+          "parentid": 1266020201,
+          "added_char_count": 17,
+          "added_text": "concepts from the",
+          "removed_char_count": 11,
+          "removed_text": "elements of"
+        },
+        {
+          "revid": 1266020201,
+          "parentid": 1265682221,
+          "added_char_count": 21581,
+          "added_text": "History == Lululemon was founded in 1998 by [[Chip Wilson]] in [[Vancouver|Vancouver, British Columbia]] with its first standalone store opening in November 2000.<ref name=\"twsNYT3\">Rob Walker, July 21, 2009, [https://www.nytimes.com/2009/07/26/magazine/26FOB-consumed-t.html \"Marketing Pose\"], ''[[The New York Times]]'', Retrieved . \"...it's no surprise that some yoga devotees have zeroed in on it as an annoying phony-baloney symbol. Elaine Lipson, a writer and editor in Boulder, Colo., who ...\"</ref><ref name=\":3\">{{Cite news |last1=Bhasin |first1=Kim Jr. |first2=Gerald |last2=Porter |title=The rise of lululemon: How America became a nation of yoga pants |work=Chicago Tribune |url=https://www.chicagotribune.com/business/ct-biz-lululemon-yoga-pants-fashion-20181031-story.html |access-date=November 5, 2018}}</ref> In 1997, Wilson had been doing yoga and had an idea to make yoga apparel for women using a proprietary skintight fabric he developed to enhance their appearance.<ref>{{cite web |last=Altstedter |first=Ari |title=Lululemon's Founder Is Racing to Cure the Rare Disease Destroying His Muscles |url=https://www.bloomberg.com/news/features/2023-10-20/lululemon-founder-chip-wilson-races-to-find-muscular-dystrophy-cure |date=October 20, 2023 |access-date=November 4, 2023 |work=Bloomberg Businesweek}}</ref> Wilson deliberately chose a name with multiple '[[L]]'s ({{Langx|ja|ルルレモン|Rururemon}}) to sound Western to Japanese buyers, who [[Perception of English /r/ and /l/ by Japanese speakers|often have difficulty]] pronouncing the letter, and that the name otherwise \"means nothing\". He later remarked that, {{blockquote|The reason the Japanese liked [my former skateboard brand 'Homeless'] was because it had an L in it and a Japanese marketing firm wouldn’t come up with a brand name with an L in it. L is not in their vocabulary. It's a tough pronunciation for them. So I thought, next time I have a company, I’ll make a name with three Ls and see if I can get three times the money. It's kind of exotic for them. I was playing with Ls and I came up with Lululemon. It's funny to watch them try to say it.<ref name=\"BI_2015\">{{Cite news |last=Edwards |first=Jim |date=September 4, 2015 |title=The long, strange history of lululemon: North America's weirdest clothing brand |work=Business Insider |url=https://www.businessinsider.com/history-of-lululemon-2015-9 |access-date=April 24, 2020}}</ref><ref name=financialpost/>}} The company made its [[initial public offering]] in July 2007, raising $327.6 million by selling 18.2 million shares.<ref name=\":2\">{{Cite news |last=Kowitt |first=Beth |last2=Leahey |first2=Colleen |date=29 August 2013 |title=Lululemon: In an uncomfortable position |url=http://fortune.com/2013/08/29/lululemon-in-an-uncomfortable-position/ |access-date=November 1, 2018 |work=Fortune}}</ref><ref>{{Cite news |last=Ball |first=Yvonne |title=lululemon IPO Runs Up 56% |work=The Wall Street Journal |url=https://www.wsj.com/articles/SB118559418768781161 |access-date=November 1, 2018}}</ref> [[Christine M. Day|Christine Day]], a former co-president of [[Starbucks]], assumed her role as the company's chief executive officer in 2008.<ref name=\":2\" /> In December 2010, Lululemon recalled some of the store's reusable bags that were made from [[polypropylene]], based on reports of high levels of lead.<ref>{{Cite news |last=Sinnema |first=Jodie |date=December 21, 2010 |title=Lululemon issues recall for shopping bags due to lead risk |work=[[Edmonton Journal]] |url=https://edmontonjournal.com/sports/Lululemon+issues+recall+shopping+bags+lead+risk/4011155/story.html |access-date=May 6, 2015 |quote=People who purchase yoga pants, hoodies or headbands from the more than 100 Lululemon stores in Canada, the U.S. and Australia often save such bags to carry their lunches to work |archive-date=April 29, 2015 |archive-url=https://web.archive.org/web/20150429031513/http://www.edmontonjournal.com/sports/Lululemon+issues+recall+shopping+bags+lead+risk/4011155/story.html |url-status=dead }}</ref> In 2012, Lululemon filed a lawsuit against [[Calvin Klein]] and supplier [[G-III Apparel Group]] for infringement of three of its design patents for yoga pants.<ref>{{Cite journal |last=Weller |first=Susan Neuberger |date=September 21, 2012 |title=S. 3523: Louboutin, Lululemon, and Fashion Design: Finally Getting Some Respect? |url=http://www.natlawreview.com/article/s-3523-louboutin-lululemon-and-fashion-design-finally-getting-some-respect |journal=The National Law Review}}</ref> The case was settled out of court the same year.<ref>{{Cite news |last=Weller |first=Susan Neuberger |date=November 27, 2012 |title=Lululemon and Calvin Klein Settle Yoga Pants Design Litigation |url=http://www.natlawreview.com/article/lululemon-and-calvin-klein-settle-yoga-pants-design-litigation |work=The National Law Review}}</ref> In 2013, the company made its third consecutive appearance on ''Fortune''{{'}}s Fastest-Growing Companies list.<ref name=\":2\" /> In December 2013, founder [[Chip Wilson]] announced his resignation as chairman, and that the president of [[TOMS Shoes]], Laurent Potdevin, would become CEO.<ref>{{cite news |url=https://www.bloomberg.com/news/articles/2013-12-10/laurent-potdevin-is-lululemons-new-ceo-dot-founder-dennis-wilson-leaves |title=Lululemon's Founder Exits and a Snowboard Exec Enters |date=December 10, 2013 |work=[[Bloomberg News]] |first=Kyle |last=Stock |url-access=limited |archive-url=https://archive.today/20220805070005/https://www.bloomberg.com/news/articles/2013-12-10/laurent-potdevin-is-lululemons-new-ceo-dot-founder-dennis-wilson-leaves |archive-date=August 5, 2022 |url-status=live}}</ref> In 2018, Calvin McDonald became CEO of Lululemon Athletica.<ref>{{Cite web |title=lululemon athletica inc. Appoints Calvin McDonald Chief Executive Officer |url=https://corporate.lululemon.com/media/press-releases/2018/07-24-2018-085627264 |access-date=2024-04-25 |website=corporate.lululemon.com |language=en}}</ref> In 2014, Lululemon opened its first store in Europe, a flagship shop in [[Covent Garden]], London.<ref>Suzanne Bearne, Drapers.\"[https://www.drapersonline.com/news/lululemon-limbers-up-to-open-first-uk-store-in-covent-garden lululemon limbers up to open first UK store in Covent Garden].\" February 20, 2014. February 4, 2015.</ref> In February 2015, Wilson announced that he was resigning from the board,<ref>{{Cite news |date=June 11, 2014 |title=Power shifts at lululemon as Chip Wilson seals deal |work=The Globe and Mail |url=https://www.theglobeandmail.com/report-on-business/lululemon-founder-to-sell-half-his-stake-to-private-equity-firm/article19961793/#dashboard/follows/}}</ref><ref>Michael Calia, February 2, 2015, Wall Street Journal, [https://www.wsj.com/articles/lululemon-founder-wilson-quits-board-1422887252 lululemon Founder Wilson Quits Board: Resignation Comes About Six Months After Disagreement Was Settled on Yoga-Apparel Maker’s Strategy]. Retrieved May 6, 2015</ref> and Michael Casey, former lead director of the board, would replace him.<ref>Huffington Post, [http://www.huffingtonpost.com/2013/12/10/chip-wilson-leaving-lululemon_n_4416487.html Chip Wilson Leaving lululemon]</ref> In 2018, Laurent Potdevin resigned as CEO and from the company's board due to misconduct related to a relationship he was having with a then-employee and later contractor.<ref>{{Cite news |last=D'Innocenzio |first=Anne |title=lululemon's CEO resigns over issue of conduct |work=[[Chicago Tribune]] |url=http://www.chicagotribune.com/business/ct-biz-lululemon-ceo-resigns-20180205-story,amp.html |access-date=February 6, 2018}}</ref><ref>{{Cite news |last1=Thomas |first1=Christina |last2=Farr |first2=Lauren |last3=Hirsch |first3=Lauren |date=February 6, 2018 |title=lululemon CEO left in part because of relationship with female designer at the company |publisher=[[CNBC]] |url=https://www.cnbc.com/2018/02/06/lululemon-ceo-laurent-potdevin-had-inappropriate-employee-relationship.html |access-date=July 15, 2018}}</ref> In 2013, some customers complained that the clothing was of poor quality, with some items being \"too sheer\", having holes appear, and falling apart after a few uses.<ref name=\"twsLATimes4\">{{Cite web |date=2013-03-20 |title=What Lululemon's revealing pants say about yoga |url=https://www.latimes.com/archives/blogs/la-now/story/2013-03-19/what-lululemons-revealing-pants-say-about-yoga |access-date=2024-06-03 |website=Los Angeles Times |language=en-US}}</ref><ref name=\"twsUSAToday3\">Michelle Chapman, AP Business Writer, November 1, 2013, ''USA Today'', [https://www.usatoday.com/story/money/business/2013/11/01/new-quality-complaints-about-lululemon-pants/3360947/ \"New quality complaints about Lululemon pants: Just a few months after company pulled yoga wear from shelves, new quality issues arise\"]. Retrieved May 6, 2015, \"...New yoga pants ... recent complaints ... still too sheer... pants pilling after a few months of wear – or even just a few uses – and about holes and seams coming apart...\"</ref> The same year, Lululemon recalled its black yoga pants that were unintentionally transparent and \"too thin\";<ref name=\"twsBBC7\">{{Cite news |date=2015-02-13 |title='Yoga pants': Are leggings and other tight trousers indecent? |url=https://www.bbc.com/news/magazine-31447905 |access-date=2024-06-03 |publisher=BBC News |language=en-GB}}</ref> the recall, which amounted to approximately 17 percent of all women's pants sold in its stores, impacted its [[financial result]]s.<ref>{{Cite news |last=Isidore |first=Chris |date=March 19, 2013 |title=See-through pants problem causes Lululemon recall |work=CNN Money |url=https://money.cnn.com/2013/03/19/news/companies/lululemon-pants/index.html?iid=EL}}</ref> The resulting financial loss and damage to the brand led to the forced departure of the company's [[chief product officer]], Sheree Waterson,<ref>{{Cite web |title=Lessons Learned from the Lululemon Recall |url=http://www.natlawreview.com/article/lessons-learned-lululemon-recall |access-date=April 10, 2013 |website=The National Law Review |publisher=Risk and Insurance Management Society, Inc. (RIMS)}}</ref><ref name=\":2\" /> and of its CEO, Christine Day.<ref name=\":1\">{{Cite news |last=Meier |first=Fred |date=June 10, 2013 |title=Stunner: Lululemon CEO Christine Day leaving |work=[[USA Today]] |url=https://www.usatoday.com/story/money/business/2013/06/10/lululemon-ceo-day-quitting/2409289/}}</ref> From its founding through 2015, Lululemon incorporated elements of [[Landmark Forum]] into its leadership and development training.<ref>{{Cite web |last=Lieber |first=Chavie |date=January 9, 2014 |title=The Self-Help Movement Behind Lululemon's Eerie Dogma |url=https://www.racked.com/2014/1/9/7625823/landmark-lululemon-feature |access-date=October 7, 2019 |website=Racked}}</ref> According to a company source, seventy per cent of managers are hired internally.<ref name=\"CNN Money\">{{Cite news |title=CEO: How to build trust inside your company |publisher=CNN Money |url=http://management.fortune.cnn.com/2012/03/16/lululemon-christine-day/ |url-status=dead |access-date=October 18, 2012 |archive-url=https://web.archive.org/web/20121127090004/http://management.fortune.cnn.com/2012/03/16/lululemon-christine-day/ |archive-date=November 27, 2012}}</ref> Store managers are responsible for their store's layout, colour coordination, and community involvement.<ref name=\"CNN Money\" /> Lululemon athletica became a [[Nasdaq-100]] company on December 24, 2018.<ref>{{Cite press release | title=Annual Changes to the NASDAQ-100 Index | url=https://www.nasdaq.com/about/press-center/annual-changes-nasdaq-100-index-0 | publisher=[[Nasdaq]] | date=December 15, 2018}}</ref> In 2019, Lululemon announced an investment in MIRROR, a home exercise startup that sells interactive fitness mirrors with a camera and speakers for at-home workouts. Capitalizing on a growing trend of people conducting virtual workouts at home instead of going to a gym due to the [[COVID-19 pandemic]], MIRROR was formally acquired by Lululemon on June 29, 2020, for $500 million and was rebranded as lululemon Studio.<ref>{{Cite news |last=Terlep |first=Sharon |date=June 30, 2020 |title=Lululemon Buys Mirror, an At-Home Fitness Startup, for $500 Million |work=The Wall Street Journal |url=https://www.wsj.com/articles/lululemon-to-buy-at-home-fitness-company-mirror-for-500-million-11593465981?mod=lead_feature_below_a_pos1 |access-date=June 30, 2020}}</ref><ref>{{Cite news |title=Lululemon set to acquire home fitness startup Mirror for $500M |publisher=[[TechCrunch]] |url=https://techcrunch.com/2020/06/29/lululemon-set-to-acquire-home-fitness-startup-mirror-for-500m/ |access-date=February 15, 2024 }}</ref><ref>{{Cite news |title=Lululemon to Buy Mirror, a Fitness Start-Up, for $500 Million |work=[[The New York Times]] |url=https://www.nytimes.com/2020/06/29/business/lululemon-buys-mirror.html |access-date=February 15, 2024 }}</ref> The companies also planned to create new content for the device, starting with [[meditation]] classes.<ref>{{Cite web |last=Hanbury |first=Mary |title=lululemon just made a bet that the $1,500 interactive workout Mirror is the future of fitness, and it should terrify boutique workout studios |url=https://www.businessinsider.com/lululemon-karlie-kloss-invest-mirror-2019-10 |access-date=October 31, 2019 |website=[[Business Insider]]}}</ref> Following the acquisition, Lululemon recorded a post-tax impairment charge of $442.7{{nbsp}}million related to the acquisition at the end of the 2022 fiscal year.<ref>{{cite magazine |last=Clark |first=Evan |date=March 28, 2023 |title=Lululemon Absorbs $442.7M Mirror Charge and Keeps Charging On |url=https://wwd.com/business-news/financial/lulu-1235596594/ |magazine=[[Women's Wear Daily]]}}</ref> In 2024, Lululemon Athletica Inc. agreed to acquire the operations and retail locations of its franchise partner in Mexico for an undisclosed amount.<ref>{{Cite web |last= |first= |date=2024-05-15 |title=Lululemon to acquire Mexico franchisee, retail locations – BNN Bloomberg |url=https://www.bnnbloomberg.ca/lululemon-to-acquire-mexico-franchisee-retail-locations-1.2073582 |access-date=2024-05-17 |website=BNN}}</ref> == Controversies == In November 2007, ''[[The New York Times]]'' reported that Lululemon made false claims about its Vitasea clothing product; the firm had claimed that the clothing, made from [[seaweed]], provided \"[[anti-inflammatory]], [[antibacterial]], hydrating and detoxifying benefits\"<ref name=\"Story NYT 2007\">{{Cite news |last=Story |first=Louise |date=November 14, 2007 |title=Seaweed Clothing Has None, Tests Show |url=https://www.nytimes.com/2007/11/14/business/14seaweed.html |work=[[The New York Times]]}}</ref> but laboratory tests failed to find significant differences in mineral levels between ordinary T-shirt cotton and Vitasea fabric.<ref name=\"Story NYT 2007\" /> Lululemon was subsequently forced to remove all health claims from its seaweed-based products marketed in Canada, following a demand from a Canadian oversight agency, the [[Competition Bureau]] of Canada.<ref>{{Cite web |title=Lululemon VitaSea Clothing: Competition Bureau Takes Action to Ensure Unsubstantiated Claims Removed from Lululemon Clothing |url=http://www.competitionbureau.gc.ca/internet/index.cfm?itemID=2517&lg=e |access-date=November 16, 2007 |publisher=Competition Bureau}}</ref> Lululemon's founder Chip Wilson has made numerous controversial statements throughout his career.<ref name=\"financialpost\">{{Cite news |last1=Shaw |first1=Hollie |date=December 10, 2013 |title=Lululemon founder Chip Wilson's 5 most controversial quotes |url=https://business.financialpost.com/news/retail-marketing/lululemon-athletica-chip-wilson-controversy |access-date=July 15, 2018 |work=Financial Post |language=en-US}}</ref> In 2013, Wilson stated that the company did not make [[Plus-size clothing|clothes for plus-size women]] because it was too costly.<ref>{{Cite news |last=Bhasin |first=Kim |date=July 31, 2013 |title=Shunning Plus-Size Shoppers Is Key To Lululemon's Strategy, Insiders Say |url=http://www.huffingtonpost.com/2013/07/31/lululemon-plus-size_n_3675605.html |access-date=April 13, 2014 |work=HuffPost}}</ref> In an effort to explain away excessive [[Pill (textile)|pilling]] in the brand's clothing, he blamed some customers for wearing Lululemon's clothes improperly or for having body shapes inconsistent with the design of the clothing.<ref name=\"twsBusinessInsider\">{{Cite web |last=Peterson |first=Hayley |date=December 10, 2013 |title=Outrageous Remarks By Lululemon Founder Chip Wilson |url=http://www.businessinsider.com/outrageous-remarks-by-lululemon-founder-chip-wilson-2013-12 |website=Business Insider}}</ref> In an interview for [[Bloomberg Television]] in 2013, he stated that some women's bodies were unsuitable for the brand's clothing.<ref name=\"twsBusinessInsider\" /> ''[[Time (magazine)|Time]]'' called the remarks \"[[fat shaming]]\".<ref name=\"twsTimeMag\">Eliana Dockterman, November 13, 2013, ''Time'' magazine, [https://ideas.time.com/2013/11/13/forget-feminist-outrage-by-shunning-plus-size-customers-lululemon-is-making-a-terrible-business-decision/ \"What Lululemon Could Learn From Abercrombie About Fat Shaming: A co-founder of Lululemon said his yoga pants just aren’t built for 'some women's bodies.' That's just a bad business decision\"]. Retrieved May 6, 2015, \"Clearly the feminist arguments against fat shaming are falling on deaf ears at Lululemon ... torrent of criticism hasn't inspired Wilson to change his tune.\"</ref> Comments such as these reportedly led to Wilson's resignation as chairman.<ref>{{Cite web |last=Kim |first=Eun Kyung |date=December 10, 2013 |title=Lululemon co-founder steps down in wake of 'women's bodies' remark |url=http://www.today.com/money/lululemon-co-founder-steps-down-wake-womens-bodies-remark-2D11721314 |publisher=Today.com}}</ref> In June 2016, Wilson published an [[open letter]] to shareholders stating that the company had \"lost its way\" and given up [[market share]] to [[Nike, Inc.|Nike]] and [[Under Armour]], after he was denied the opportunity to speak at the company's annual meetings.<ref>{{Cite web |last=Maheshwari |first=Sapna |date=June 2016 |title=Lululemon Founder Slams Company, Now That He's Allowed To |url=https://www.buzzfeed.com/sapna/lululemon-founder-slams-brand-now-that-hes-allowed-to |access-date=June 3, 2016 |website=[[BuzzFeed]]}}</ref><ref>{{Cite news |last=Mau |first=Dhani |date=June 2, 2016 |title=Lululemon Founder Chip Wilson Created a Whole Website to Criticize the Company |url=http://fashionista.com/2016/06/chip-wilson-elevate-lululemon-website |access-date=June 3, 2016 |newspaper=Fashionista}}</ref> Since then, Wilson has used his website \"Elevate Lululemon\" to criticise the brand and business.<ref>{{Cite news |title=Lululemon Founder Chip Wilson Created a Whole Website to Criticize the Company |url=http://fashionista.com/2016/06/chip-wilson-elevate-lululemon-website |access-date=February 15, 2017 |newspaper=Fashionista}}</ref> In 2021, an unnamed company director pushed employees to create an [[All Lives Matter]] campaign to be displayed on its website in response to the murder of [[George Floyd]]. Employees pushed back but were told to create a mock up with the All Lives Matter copy; however, they also created a [[Black Lives Matter]] mock up that was selected instead. The director apologized and subsequently left the company.<ref>{{Cite web |last=Elan |first=Priya |date=July 2, 2021 |title=Lululemon 'pushed for All Lives Matter' campaign |url=http://www.theguardian.com/fashion/2021/jul/02/lululemon-pushed-for-all-lives-matter-campaign |access-date=July 3, 2021 |website=[[The Guardian]] |language=en}}</ref><ref>{{Cite news |last1=Hroncich |first1=Caroline |last2=Biron |first2=Bethany |date=July 2, 2021 |title='Privileged white wellness': Lululemon corporate employees speak out on the culture of racial insensitivity |url=https://www.businessinsider.com/lululemon-corporate-employees-describe-traumatic-racial-insensitivity-2021-6 |url-access=subscription |access-date=July 26, 2021 |work=Business Insider}}</ref> In May 2023, it was reported that a Lululemon store in [[Atlanta|Atlanta, Georgia]] fired two employees for calling the police during a looting,<ref>{{Cite web |date=May 28, 2023 |title=Lululemon Fires Atlanta Employees for Calling Police During Robbery |url=https://www.nationalreview.com/news/lululemon-fires-atlanta-employees-for-calling-police-during-robbery/ |access-date=May 29, 2023 |website=National Review}}</ref> but the company said that they were fired for physically confronting or following the looters.<ref>{{Cite web |date=May 24, 2023 |title=Lululemon employees fired after robbery for breaking policy |url=https://www.11alive.com/article/news/crime/lululemon-employees-fired-after-robbery-store-theft-theives/85-6bf57aca-8fba-4ca9-a0a1-4458a572b5b3 |access-date=May 29, 2023 |website=WXIA-TV}}</ref> The two employees physically approached the looters, and one of them took a video recording of the looting with her smartphone. They then followed the looters out of the store towards the parking lot. The three looters were arrested within days and charged with felony robbery.<ref>{{Cite web |date=May 29, 2023 |title=The three men charged over brazen Lululemon store robbery in Georgia |url=https://georgialawnews.com/the-three-men-have-been-charged-with-brazenly-robbing-a-lululemon-store-in-georgia/ |access-date=May 29, 2023 |website=Georgia Law News}}</ref> ==",
+          "removed_char_count": 21581,
+          "removed_text": "== History == Lululemon was founded in 1998 by [[Chip Wilson]] in [[Vancouver|Vancouver, British Columbia]] with its first standalone store opening in November 2000.<ref name=\"twsNYT3\">Rob Walker, July 21, 2009, [https://www.nytimes.com/2009/07/26/magazine/26FOB-consumed-t.html \"Marketing Pose\"], ''[[The New York Times]]'', Retrieved . \"...it's no surprise that some yoga devotees have zeroed in on it as an annoying phony-baloney symbol. Elaine Lipson, a writer and editor in Boulder, Colo., who ...\"</ref><ref name=\":3\">{{Cite news |last1=Bhasin |first1=Kim Jr. |first2=Gerald |last2=Porter |title=The rise of lululemon: How America became a nation of yoga pants |work=Chicago Tribune |url=https://www.chicagotribune.com/business/ct-biz-lululemon-yoga-pants-fashion-20181031-story.html |access-date=November 5, 2018}}</ref> In 1997, Wilson had been doing yoga and had an idea to make yoga apparel for women using a proprietary skintight fabric he developed to enhance their appearance.<ref>{{cite web |last=Altstedter |first=Ari |title=Lululemon's Founder Is Racing to Cure the Rare Disease Destroying His Muscles |url=https://www.bloomberg.com/news/features/2023-10-20/lululemon-founder-chip-wilson-races-to-find-muscular-dystrophy-cure |date=October 20, 2023 |access-date=November 4, 2023 |work=Bloomberg Businesweek}}</ref> Wilson deliberately chose a name with multiple '[[L]]'s ({{Langx|ja|ルルレモン|Rururemon}}) to sound Western to Japanese buyers, who [[Perception of English /r/ and /l/ by Japanese speakers|often have difficulty]] pronouncing the letter, and that the name otherwise \"means nothing\". He later remarked that, {{blockquote|The reason the Japanese liked [my former skateboard brand 'Homeless'] was because it had an L in it and a Japanese marketing firm wouldn’t come up with a brand name with an L in it. L is not in their vocabulary. It's a tough pronunciation for them. So I thought, next time I have a company, I’ll make a name with three Ls and see if I can get three times the money. It's kind of exotic for them. I was playing with Ls and I came up with Lululemon. It's funny to watch them try to say it.<ref name=\"BI_2015\">{{Cite news |last=Edwards |first=Jim |date=September 4, 2015 |title=The long, strange history of lululemon: North America's weirdest clothing brand |work=Business Insider |url=https://www.businessinsider.com/history-of-lululemon-2015-9 |access-date=April 24, 2020}}</ref><ref name=financialpost/>}} The company made its [[initial public offering]] in July 2007, raising $327.6 million by selling 18.2 million shares.<ref name=\":2\">{{Cite news |last=Kowitt |first=Beth |last2=Leahey |first2=Colleen |date=29 August 2013 |title=Lululemon: In an uncomfortable position |url=http://fortune.com/2013/08/29/lululemon-in-an-uncomfortable-position/ |access-date=November 1, 2018 |work=Fortune}}</ref><ref>{{Cite news |last=Ball |first=Yvonne |title=lululemon IPO Runs Up 56% |work=The Wall Street Journal |url=https://www.wsj.com/articles/SB118559418768781161 |access-date=November 1, 2018}}</ref> [[Christine M. Day|Christine Day]], a former co-president of [[Starbucks]], assumed her role as the company's chief executive officer in 2008.<ref name=\":2\" /> In December 2010, Lululemon recalled some of the store's reusable bags that were made from [[polypropylene]], based on reports of high levels of lead.<ref>{{Cite news |last=Sinnema |first=Jodie |date=December 21, 2010 |title=Lululemon issues recall for shopping bags due to lead risk |work=[[Edmonton Journal]] |url=https://edmontonjournal.com/sports/Lululemon+issues+recall+shopping+bags+lead+risk/4011155/story.html |access-date=May 6, 2015 |quote=People who purchase yoga pants, hoodies or headbands from the more than 100 Lululemon stores in Canada, the U.S. and Australia often save such bags to carry their lunches to work |archive-date=April 29, 2015 |archive-url=https://web.archive.org/web/20150429031513/http://www.edmontonjournal.com/sports/Lululemon+issues+recall+shopping+bags+lead+risk/4011155/story.html |url-status=dead }}</ref> In 2012, Lululemon filed a lawsuit against [[Calvin Klein]] and supplier [[G-III Apparel Group]] for infringement of three of its design patents for yoga pants.<ref>{{Cite journal |last=Weller |first=Susan Neuberger |date=September 21, 2012 |title=S. 3523: Louboutin, Lululemon, and Fashion Design: Finally Getting Some Respect? |url=http://www.natlawreview.com/article/s-3523-louboutin-lululemon-and-fashion-design-finally-getting-some-respect |journal=The National Law Review}}</ref> The case was settled out of court the same year.<ref>{{Cite news |last=Weller |first=Susan Neuberger |date=November 27, 2012 |title=Lululemon and Calvin Klein Settle Yoga Pants Design Litigation |url=http://www.natlawreview.com/article/lululemon-and-calvin-klein-settle-yoga-pants-design-litigation |work=The National Law Review}}</ref> In 2013, the company made its third consecutive appearance on ''Fortune''{{'}}s Fastest-Growing Companies list.<ref name=\":2\" /> In December 2013, founder [[Chip Wilson]] announced his resignation as chairman, and that the president of [[TOMS Shoes]], Laurent Potdevin, would become CEO.<ref>{{cite news |url=https://www.bloomberg.com/news/articles/2013-12-10/laurent-potdevin-is-lululemons-new-ceo-dot-founder-dennis-wilson-leaves |title=Lululemon's Founder Exits and a Snowboard Exec Enters |date=December 10, 2013 |work=[[Bloomberg News]] |first=Kyle |last=Stock |url-access=limited |archive-url=https://archive.today/20220805070005/https://www.bloomberg.com/news/articles/2013-12-10/laurent-potdevin-is-lululemons-new-ceo-dot-founder-dennis-wilson-leaves |archive-date=August 5, 2022 |url-status=live}}</ref> In 2018, Calvin McDonald became CEO of Lululemon Athletica.<ref>{{Cite web |title=lululemon athletica inc. Appoints Calvin McDonald Chief Executive Officer |url=https://corporate.lululemon.com/media/press-releases/2018/07-24-2018-085627264 |access-date=2024-04-25 |website=corporate.lululemon.com |language=en}}</ref> In 2014, Lululemon opened its first store in Europe, a flagship shop in [[Covent Garden]], London.<ref>Suzanne Bearne, Drapers.\"[https://www.drapersonline.com/news/lululemon-limbers-up-to-open-first-uk-store-in-covent-garden lululemon limbers up to open first UK store in Covent Garden].\" February 20, 2014. February 4, 2015.</ref> In February 2015, Wilson announced that he was resigning from the board,<ref>{{Cite news |date=June 11, 2014 |title=Power shifts at lululemon as Chip Wilson seals deal |work=The Globe and Mail |url=https://www.theglobeandmail.com/report-on-business/lululemon-founder-to-sell-half-his-stake-to-private-equity-firm/article19961793/#dashboard/follows/}}</ref><ref>Michael Calia, February 2, 2015, Wall Street Journal, [https://www.wsj.com/articles/lululemon-founder-wilson-quits-board-1422887252 lululemon Founder Wilson Quits Board: Resignation Comes About Six Months After Disagreement Was Settled on Yoga-Apparel Maker’s Strategy]. Retrieved May 6, 2015</ref> and Michael Casey, former lead director of the board, would replace him.<ref>Huffington Post, [http://www.huffingtonpost.com/2013/12/10/chip-wilson-leaving-lululemon_n_4416487.html Chip Wilson Leaving lululemon]</ref> In 2018, Laurent Potdevin resigned as CEO and from the company's board due to misconduct related to a relationship he was having with a then-employee and later contractor.<ref>{{Cite news |last=D'Innocenzio |first=Anne |title=lululemon's CEO resigns over issue of conduct |work=[[Chicago Tribune]] |url=http://www.chicagotribune.com/business/ct-biz-lululemon-ceo-resigns-20180205-story,amp.html |access-date=February 6, 2018}}</ref><ref>{{Cite news |last1=Thomas |first1=Christina |last2=Farr |first2=Lauren |last3=Hirsch |first3=Lauren |date=February 6, 2018 |title=lululemon CEO left in part because of relationship with female designer at the company |publisher=[[CNBC]] |url=https://www.cnbc.com/2018/02/06/lululemon-ceo-laurent-potdevin-had-inappropriate-employee-relationship.html |access-date=July 15, 2018}}</ref> In 2013, some customers complained that the clothing was of poor quality, with some items being \"too sheer\", having holes appear, and falling apart after a few uses.<ref name=\"twsLATimes4\">{{Cite web |date=2013-03-20 |title=What Lululemon's revealing pants say about yoga |url=https://www.latimes.com/archives/blogs/la-now/story/2013-03-19/what-lululemons-revealing-pants-say-about-yoga |access-date=2024-06-03 |website=Los Angeles Times |language=en-US}}</ref><ref name=\"twsUSAToday3\">Michelle Chapman, AP Business Writer, November 1, 2013, ''USA Today'', [https://www.usatoday.com/story/money/business/2013/11/01/new-quality-complaints-about-lululemon-pants/3360947/ \"New quality complaints about Lululemon pants: Just a few months after company pulled yoga wear from shelves, new quality issues arise\"]. Retrieved May 6, 2015, \"...New yoga pants ... recent complaints ... still too sheer... pants pilling after a few months of wear – or even just a few uses – and about holes and seams coming apart...\"</ref> The same year, Lululemon recalled its black yoga pants that were unintentionally transparent and \"too thin\";<ref name=\"twsBBC7\">{{Cite news |date=2015-02-13 |title='Yoga pants': Are leggings and other tight trousers indecent? |url=https://www.bbc.com/news/magazine-31447905 |access-date=2024-06-03 |publisher=BBC News |language=en-GB}}</ref> the recall, which amounted to approximately 17 percent of all women's pants sold in its stores, impacted its [[financial result]]s.<ref>{{Cite news |last=Isidore |first=Chris |date=March 19, 2013 |title=See-through pants problem causes Lululemon recall |work=CNN Money |url=https://money.cnn.com/2013/03/19/news/companies/lululemon-pants/index.html?iid=EL}}</ref> The resulting financial loss and damage to the brand led to the forced departure of the company's [[chief product officer]], Sheree Waterson,<ref>{{Cite web |title=Lessons Learned from the Lululemon Recall |url=http://www.natlawreview.com/article/lessons-learned-lululemon-recall |access-date=April 10, 2013 |website=The National Law Review |publisher=Risk and Insurance Management Society, Inc. (RIMS)}}</ref><ref name=\":2\" /> and of its CEO, Christine Day.<ref name=\":1\">{{Cite news |last=Meier |first=Fred |date=June 10, 2013 |title=Stunner: Lululemon CEO Christine Day leaving |work=[[USA Today]] |url=https://www.usatoday.com/story/money/business/2013/06/10/lululemon-ceo-day-quitting/2409289/}}</ref> From its founding through 2015, Lululemon incorporated elements of [[Landmark Forum]] into its leadership and development training.<ref>{{Cite web |last=Lieber |first=Chavie |date=January 9, 2014 |title=The Self-Help Movement Behind Lululemon's Eerie Dogma |url=https://www.racked.com/2014/1/9/7625823/landmark-lululemon-feature |access-date=October 7, 2019 |website=Racked}}</ref> According to a company source, seventy per cent of managers are hired internally.<ref name=\"CNN Money\">{{Cite news |title=CEO: How to build trust inside your company |publisher=CNN Money |url=http://management.fortune.cnn.com/2012/03/16/lululemon-christine-day/ |url-status=dead |access-date=October 18, 2012 |archive-url=https://web.archive.org/web/20121127090004/http://management.fortune.cnn.com/2012/03/16/lululemon-christine-day/ |archive-date=November 27, 2012}}</ref> Store managers are responsible for their store's layout, colour coordination, and community involvement.<ref name=\"CNN Money\" /> Lululemon athletica became a [[Nasdaq-100]] company on December 24, 2018.<ref>{{Cite press release | title=Annual Changes to the NASDAQ-100 Index | url=https://www.nasdaq.com/about/press-center/annual-changes-nasdaq-100-index-0 | publisher=[[Nasdaq]] | date=December 15, 2018}}</ref> In 2019, Lululemon announced an investment in MIRROR, a home exercise startup that sells interactive fitness mirrors with a camera and speakers for at-home workouts. Capitalizing on a growing trend of people conducting virtual workouts at home instead of going to a gym due to the [[COVID-19 pandemic]], MIRROR was formally acquired by Lululemon on June 29, 2020, for $500 million and was rebranded as lululemon Studio.<ref>{{Cite news |last=Terlep |first=Sharon |date=June 30, 2020 |title=Lululemon Buys Mirror, an At-Home Fitness Startup, for $500 Million |work=The Wall Street Journal |url=https://www.wsj.com/articles/lululemon-to-buy-at-home-fitness-company-mirror-for-500-million-11593465981?mod=lead_feature_below_a_pos1 |access-date=June 30, 2020}}</ref><ref>{{Cite news |title=Lululemon set to acquire home fitness startup Mirror for $500M |publisher=[[TechCrunch]] |url=https://techcrunch.com/2020/06/29/lululemon-set-to-acquire-home-fitness-startup-mirror-for-500m/ |access-date=February 15, 2024 }}</ref><ref>{{Cite news |title=Lululemon to Buy Mirror, a Fitness Start-Up, for $500 Million |work=[[The New York Times]] |url=https://www.nytimes.com/2020/06/29/business/lululemon-buys-mirror.html |access-date=February 15, 2024 }}</ref> The companies also planned to create new content for the device, starting with [[meditation]] classes.<ref>{{Cite web |last=Hanbury |first=Mary |title=lululemon just made a bet that the $1,500 interactive workout Mirror is the future of fitness, and it should terrify boutique workout studios |url=https://www.businessinsider.com/lululemon-karlie-kloss-invest-mirror-2019-10 |access-date=October 31, 2019 |website=[[Business Insider]]}}</ref> Following the acquisition, Lululemon recorded a post-tax impairment charge of $442.7{{nbsp}}million related to the acquisition at the end of the 2022 fiscal year.<ref>{{cite magazine |last=Clark |first=Evan |date=March 28, 2023 |title=Lululemon Absorbs $442.7M Mirror Charge and Keeps Charging On |url=https://wwd.com/business-news/financial/lulu-1235596594/ |magazine=[[Women's Wear Daily]]}}</ref> In 2024, Lululemon Athletica Inc. agreed to acquire the operations and retail locations of its franchise partner in Mexico for an undisclosed amount.<ref>{{Cite web |last= |first= |date=2024-05-15 |title=Lululemon to acquire Mexico franchisee, retail locations – BNN Bloomberg |url=https://www.bnnbloomberg.ca/lululemon-to-acquire-mexico-franchisee-retail-locations-1.2073582 |access-date=2024-05-17 |website=BNN}}</ref> == Controversies == In November 2007, ''[[The New York Times]]'' reported that Lululemon made false claims about its Vitasea clothing product; the firm had claimed that the clothing, made from [[seaweed]], provided \"[[anti-inflammatory]], [[antibacterial]], hydrating and detoxifying benefits\"<ref name=\"Story NYT 2007\">{{Cite news |last=Story |first=Louise |date=November 14, 2007 |title=Seaweed Clothing Has None, Tests Show |url=https://www.nytimes.com/2007/11/14/business/14seaweed.html |work=[[The New York Times]]}}</ref> but laboratory tests failed to find significant differences in mineral levels between ordinary T-shirt cotton and Vitasea fabric.<ref name=\"Story NYT 2007\" /> Lululemon was subsequently forced to remove all health claims from its seaweed-based products marketed in Canada, following a demand from a Canadian oversight agency, the [[Competition Bureau]] of Canada.<ref>{{Cite web |title=Lululemon VitaSea Clothing: Competition Bureau Takes Action to Ensure Unsubstantiated Claims Removed from Lululemon Clothing |url=http://www.competitionbureau.gc.ca/internet/index.cfm?itemID=2517&lg=e |access-date=November 16, 2007 |publisher=Competition Bureau}}</ref> Lululemon's founder Chip Wilson has made numerous controversial statements throughout his career.<ref name=\"financialpost\">{{Cite news |last1=Shaw |first1=Hollie |date=December 10, 2013 |title=Lululemon founder Chip Wilson's 5 most controversial quotes |url=https://business.financialpost.com/news/retail-marketing/lululemon-athletica-chip-wilson-controversy |access-date=July 15, 2018 |work=Financial Post |language=en-US}}</ref> In 2013, Wilson stated that the company did not make [[Plus-size clothing|clothes for plus-size women]] because it was too costly.<ref>{{Cite news |last=Bhasin |first=Kim |date=July 31, 2013 |title=Shunning Plus-Size Shoppers Is Key To Lululemon's Strategy, Insiders Say |url=http://www.huffingtonpost.com/2013/07/31/lululemon-plus-size_n_3675605.html |access-date=April 13, 2014 |work=HuffPost}}</ref> In an effort to explain away excessive [[Pill (textile)|pilling]] in the brand's clothing, he blamed some customers for wearing Lululemon's clothes improperly or for having body shapes inconsistent with the design of the clothing.<ref name=\"twsBusinessInsider\">{{Cite web |last=Peterson |first=Hayley |date=December 10, 2013 |title=Outrageous Remarks By Lululemon Founder Chip Wilson |url=http://www.businessinsider.com/outrageous-remarks-by-lululemon-founder-chip-wilson-2013-12 |website=Business Insider}}</ref> In an interview for [[Bloomberg Television]] in 2013, he stated that some women's bodies were unsuitable for the brand's clothing.<ref name=\"twsBusinessInsider\" /> ''[[Time (magazine)|Time]]'' called the remarks \"[[fat shaming]]\".<ref name=\"twsTimeMag\">Eliana Dockterman, November 13, 2013, ''Time'' magazine, [https://ideas.time.com/2013/11/13/forget-feminist-outrage-by-shunning-plus-size-customers-lululemon-is-making-a-terrible-business-decision/ \"What Lululemon Could Learn From Abercrombie About Fat Shaming: A co-founder of Lululemon said his yoga pants just aren’t built for 'some women's bodies.' That's just a bad business decision\"]. Retrieved May 6, 2015, \"Clearly the feminist arguments against fat shaming are falling on deaf ears at Lululemon ... torrent of criticism hasn't inspired Wilson to change his tune.\"</ref> Comments such as these reportedly led to Wilson's resignation as chairman.<ref>{{Cite web |last=Kim |first=Eun Kyung |date=December 10, 2013 |title=Lululemon co-founder steps down in wake of 'women's bodies' remark |url=http://www.today.com/money/lululemon-co-founder-steps-down-wake-womens-bodies-remark-2D11721314 |publisher=Today.com}}</ref> In June 2016, Wilson published an [[open letter]] to shareholders stating that the company had \"lost its way\" and given up [[market share]] to [[Nike, Inc.|Nike]] and [[Under Armour]], after he was denied the opportunity to speak at the company's annual meetings.<ref>{{Cite web |last=Maheshwari |first=Sapna |date=June 2016 |title=Lululemon Founder Slams Company, Now That He's Allowed To |url=https://www.buzzfeed.com/sapna/lululemon-founder-slams-brand-now-that-hes-allowed-to |access-date=June 3, 2016 |website=[[BuzzFeed]]}}</ref><ref>{{Cite news |last=Mau |first=Dhani |date=June 2, 2016 |title=Lululemon Founder Chip Wilson Created a Whole Website to Criticize the Company |url=http://fashionista.com/2016/06/chip-wilson-elevate-lululemon-website |access-date=June 3, 2016 |newspaper=Fashionista}}</ref> Since then, Wilson has used his website \"Elevate Lululemon\" to criticise the brand and business.<ref>{{Cite news |title=Lululemon Founder Chip Wilson Created a Whole Website to Criticize the Company |url=http://fashionista.com/2016/06/chip-wilson-elevate-lululemon-website |access-date=February 15, 2017 |newspaper=Fashionista}}</ref> In 2021, an unnamed company director pushed employees to create an [[All Lives Matter]] campaign to be displayed on its website in response to the murder of [[George Floyd]]. Employees pushed back but were told to create a mock up with the All Lives Matter copy; however, they also created a [[Black Lives Matter]] mock up that was selected instead. The director apologized and subsequently left the company.<ref>{{Cite web |last=Elan |first=Priya |date=July 2, 2021 |title=Lululemon 'pushed for All Lives Matter' campaign |url=http://www.theguardian.com/fashion/2021/jul/02/lululemon-pushed-for-all-lives-matter-campaign |access-date=July 3, 2021 |website=[[The Guardian]] |language=en}}</ref><ref>{{Cite news |last1=Hroncich |first1=Caroline |last2=Biron |first2=Bethany |date=July 2, 2021 |title='Privileged white wellness': Lululemon corporate employees speak out on the culture of racial insensitivity |url=https://www.businessinsider.com/lululemon-corporate-employees-describe-traumatic-racial-insensitivity-2021-6 |url-access=subscription |access-date=July 26, 2021 |work=Business Insider}}</ref> In May 2023, it was reported that a Lululemon store in [[Atlanta|Atlanta, Georgia]] fired two employees for calling the police during a looting,<ref>{{Cite web |date=May 28, 2023 |title=Lululemon Fires Atlanta Employees for Calling Police During Robbery |url=https://www.nationalreview.com/news/lululemon-fires-atlanta-employees-for-calling-police-during-robbery/ |access-date=May 29, 2023 |website=National Review}}</ref> but the company said that they were fired for physically confronting or following the looters.<ref>{{Cite web |date=May 24, 2023 |title=Lululemon employees fired after robbery for breaking policy |url=https://www.11alive.com/article/news/crime/lululemon-employees-fired-after-robbery-store-theft-theives/85-6bf57aca-8fba-4ca9-a0a1-4458a572b5b3 |access-date=May 29, 2023 |website=WXIA-TV}}</ref> The two employees physically approached the looters, and one of them took a video recording of the looting with her smartphone. They then followed the looters out of the store towards the parking lot. The three looters were arrested within days and charged with felony robbery.<ref>{{Cite web |date=May 29, 2023 |title=The three men charged over brazen Lululemon store robbery in Georgia |url=https://georgialawnews.com/the-three-men-have-been-charged-with-brazenly-robbing-a-lululemon-store-in-georgia/ |access-date=May 29, 2023 |website=Georgia Law News}}</ref>"
+        }
+      ],
+      "Horseshoe crab": [
+        {
+          "revid": 1265816764,
+          "parentid": 1261223767,
+          "added_char_count": 9,
+          "added_text": "continued",
+          "removed_char_count": 10,
+          "removed_text": "continuous"
+        }
+      ],
+      "Prophecy (Star Trek: Voyager)": [
+        {
+          "revid": 1265305339,
+          "parentid": 1265305021,
+          "added_char_count": 0,
+          "added_text": "",
+          "removed_char_count": 10,
+          "removed_text": "Naturally,"
+        },
+        {
+          "revid": 1265305021,
+          "parentid": 1261744559,
+          "added_char_count": 7,
+          "added_text": "galaxy,",
+          "removed_char_count": 7,
+          "removed_text": "Galaxy,"
+        }
+      ],
+      "Scott E. Parazynski": [
+        {
+          "revid": 1264738763,
+          "parentid": 1264738189,
+          "added_char_count": 7,
+          "added_text": "Cossman",
+          "removed_char_count": 48,
+          "removed_text": "[http://www.samcossman.com/#sam-cossman Cossman]"
+        },
+        {
+          "revid": 1264738189,
+          "parentid": 1264171787,
+          "added_char_count": 229,
+          "added_text": "Volcano's lava lake in Nicaragua with [http://www.samcossman.com/#sam-cossman Sam Cossman] in 2016.<ref>{{Cite 2018|archive-url=https://web.archive.org/web/20180810203910/https://www.ge.com/digitalvolcano/|url-status=live}}</ref>",
+          "removed_char_count": 229,
+          "removed_text": "Volcano<ref>{{Cite 2018|archive-url=https://web.archive.org/web/20180810203910/https://www.ge.com/digitalvolcano/|url-status=live}}</ref>'s lava lake in Nicaragua with [http://www.samcossman.com/#sam-cossman Sam Cossman] in 2016."
+        }
+      ],
+      "Morley": [
+        {
+          "revid": 1264737865,
+          "parentid": 1252898654,
+          "added_char_count": 32,
+          "added_text": "[[Mînî Thnî]] (formerly Morley),",
+          "removed_char_count": 20,
+          "removed_text": "[[Morley, Alberta]],"
+        }
+      ],
+      "Mînî Thnî": [
+        {
+          "revid": 1264737694,
+          "parentid": 1264737103,
+          "added_char_count": 341,
+          "added_text": "In August 2024, Morley was renamed Mînî Thnî by the Stoney Nakoda First Nations.<ref>{{cite news |last=Cobb |first=Meghan |date=2024-08-29 |title=Stoney Nakoda First Nations reclaim heritage through name change |url=https://globalnews.ca/news/10726072/stoney-nakoda-first-nations-name-change |work= |location= |access-date=2024-12-23}}</ref>",
+          "removed_char_count": 0,
+          "removed_text": ""
+        },
+        {
+          "revid": 1264737103,
+          "parentid": 1264736822,
+          "added_char_count": 3,
+          "added_text": "was",
+          "removed_char_count": 7,
+          "removed_text": "the was"
+        },
+        {
+          "revid": 1264736822,
+          "parentid": 1252331227,
+          "added_char_count": 13,
+          "added_text": "Nations-owned",
+          "removed_char_count": 13,
+          "removed_text": "Nations–owned"
+        }
+      ]
+    }
+  }
+}
