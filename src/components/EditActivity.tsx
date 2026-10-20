@@ -34,7 +34,7 @@ export function ActivityBar({ profile, selected, onSelect, compact }: BarProps) 
         const n = counts[i]
         // Proportional width with a floor so small buckets stay clickable.
         const share = total ? n / total : 1 / BUCKETS.length
-        const grow = Math.max(share, 0.06)
+        const grow = Math.max(share, 0.02) // width floor comes from the label (CSS min-width)
         const isSel = selected === b.key
         return (
           <button

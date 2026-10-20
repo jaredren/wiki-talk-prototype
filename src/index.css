@@ -182,17 +182,19 @@ html, body, #root {
   gap: 3px;
   height: 140px;
 }
-.activity-bar.compact { height: 44px; margin: 0 0 24px; }
+.activity-bar.compact { height: 52px; margin: 0 0 24px; }
 .activity-seg {
   font: inherit;
   font-size: 17px;
   color: var(--text);
   border: 2px solid transparent;
   cursor: pointer;
-  padding: 4px;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  padding: 4px 8px;
+  /* Never clip the label: each segment is at least as wide as its own text
+     (wrapped onto two lines if needed); spare width is shared by edit count. */
+  min-width: fit-content;
+  white-space: normal;
+  overflow: visible;
   line-height: 1.15;
 }
 .activity-bar.compact .activity-seg { color: var(--wiki-blue); font-size: 16px; }
@@ -338,7 +340,7 @@ html, body, #root {
   .activity-block { margin-top: 20px; }
   .activity-title { font-size: 16px; margin: 0 10px 8px; }
   .activity-bar { height: 104px; }
-  .activity-bar.compact { height: 40px; margin-bottom: 16px; }
+  .activity-bar.compact { height: 48px; margin-bottom: 16px; }
   .activity-seg { font-size: 15px; }
   .activity-header .activity-title { font-size: 18px; }
   .detail-col { padding: 16px 10px 16px; }
