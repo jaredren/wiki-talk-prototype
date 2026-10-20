@@ -152,7 +152,13 @@ export default function App() {
           <>
             <UserTabs users={tabUsers} active={activeUser} onSelect={selectUser} />
             {activeUser ? (
-              <UserPanel key={`${meta.id}:${activeUser}`} user={activeUser} profile={profile} highlightOn={highlightOn} />
+              <UserPanel
+                key={`${meta.id}:${activeUser}`}
+                user={activeUser}
+                profile={profile}
+                highlightOn={highlightOn}
+                onCloseHighlight={() => setHighlightOn(false)}
+              />
             ) : (
               <p className="panel-note">No user profiles found for this discussion.</p>
             )}

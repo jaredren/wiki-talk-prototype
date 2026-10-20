@@ -27,11 +27,12 @@ interface Props {
   user: string
   profile: UserProfile | null // null = no JSON file for this user
   highlightOn: boolean
+  onCloseHighlight: () => void
 }
 
 type PopId = 'barnstars' | 'userpage' | 'admin' | 'blocked' | 'collab' | 'social' | null
 
-export default function UserPanel({ user, profile, highlightOn }: Props) {
+export default function UserPanel({ user, profile, highlightOn, onCloseHighlight }: Props) {
   const [accountOpen, setAccountOpen] = useState(true)
   const [socialOpen, setSocialOpen] = useState(false)
   const [bucket, setBucket] = useState<BucketKey | null>(null)
@@ -66,7 +67,7 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
   return (
     <div className="user-panel">
       <Section title={`${user}'s account information`} open={accountOpen} onToggle={() => setAccountOpen((o) => !o)}>
-        {highlightOn && <DiscussionOverlay profile={profile} />}
+        {highlightOn && <DiscussionOverlay profile={profile} onClose={onCloseHighlight} />}
         {!profile && <p className="panel-note">No profile file found for {user}.</p>}
 
         <div className="info-grid">
@@ -262,10 +263,15 @@ function Section({
  * (frame 3 of the design). "Behavior" is a placeholder; "Blocked conduct"
  * lists blocks the scraper marked as related to this discussion.
  */
-function DiscussionOverlay({ profile }: { profile: UserProfile | null }) {
+function DiscussionOverlay({ profile, onClose }: { profile: UserProfile | null; onClose: () => void }) {
   const related = relatedBlocks(profile)
   return (
-    <div className="discussion-overlay">
+    <div className="discussion-overlay" role="dialog">
+      <button className="popover-close overlay-close" onClick={onClose} aria-label="Close">
+        <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" strokeWidth="1.6" fill="none" />
+        </svg>
+      </button>
       <h3>Behavior in the discussion seems…</h3>
       <LlmBox height={150} />
       <h3>Blocked conduct in the discussion</h3>

@@ -327,6 +327,7 @@ html, body, #root {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
   padding: 44px 48px 60px;
 }
+.overlay-close { top: 14px; right: 16px; }
 .discussion-overlay h3 { font-size: 20px; font-weight: normal; margin: 0 0 36px; }
 .discussion-overlay .llm-box { margin-bottom: 64px; }
 
