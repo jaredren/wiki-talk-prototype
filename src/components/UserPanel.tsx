@@ -21,7 +21,7 @@ import {
 import Popover, { PopTable } from './Popover'
 import { Explanation, LlmBox } from './Placeholder'
 import { ActivityBar, ActivityDetail } from './EditActivity'
-import { CalendarUserIcon, Caret, EditIcon, UserGearIcon, UserSlashIcon } from './icons'
+import { BarnstarIcon, CalendarUserIcon, Caret, EditIcon, UserGearIcon, UserSearchIcon, UserSlashIcon } from './icons'
 
 interface Props {
   user: string
@@ -85,7 +85,7 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
           </div>
 
           <div className="info-card pop-anchor">
-            <CalendarUserIcon />
+            <BarnstarIcon />
             <span>
               <button className="link-btn" onClick={() => toggle('barnstars')} aria-expanded={pop === 'barnstars'}>
                 Barnstars <Caret />
@@ -104,7 +104,7 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
             )}
           </div>
           <div className="info-card pop-anchor">
-            <EditIcon />
+            <UserSearchIcon />
             <span>
               <button className="link-btn" onClick={() => toggle('userpage')} aria-expanded={pop === 'userpage'}>
                 User page summary <Caret />

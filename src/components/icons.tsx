@@ -36,6 +36,23 @@ export const UserSlashIcon = () => (
   </svg>
 )
 
+export const BarnstarIcon = () => (
+  <svg {...common}>
+    <polygon points="12.00,2.10 14.59,9.14 22.08,9.42 16.18,14.06 18.23,21.28 12.00,17.10 5.77,21.28 7.82,14.06 1.92,9.42 9.41,9.14" />
+    <circle cx="12" cy="12.7" r="1.9" strokeWidth="1.5" />
+  </svg>
+)
+
+export const UserSearchIcon = () => (
+  <svg {...common}>
+    <circle cx="9.5" cy="9.5" r="6.5" />
+    <path d="M14.1 14.1L15.6 15.6" />
+    <path d="M15.8 15.8L20.8 20.8" strokeWidth="3.6" />
+    <circle cx="9.5" cy="8" r="1.8" />
+    <path d="M6.3 13c.8-1.3 1.9-1.9 3.2-1.9s2.4.6 3.2 1.9" />
+  </svg>
+)
+
 export const Caret = () => (
   <svg className="caret-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
     <path d="M2 4l4 4 4-4z" fill="currentColor" />
