@@ -21,8 +21,11 @@ const HOVER_DELAY_MS = 350
 
 export default function TalkPane({ html, meta, highlightIds }: Props) {
   const bodyRef = useRef<HTMLDivElement>(null)
+  const paneRef = useRef<HTMLDivElement>(null)
   const [hover, setHover] = useState<Hover | null>(null)
   const timer = useRef<number | undefined>(undefined)
+  /** Relative positions (0..1) of each highlighted comment, for the marker strip. */
+  const [marks, setMarks] = useState<{ pos: number; height: number; top: number }[]>([])
 
   // Inject the snapshot once and prepare links.
   useEffect(() => {
@@ -37,7 +40,36 @@ export default function TalkPane({ html, meta, highlightIds }: Props) {
     const el = bodyRef.current
     if (!el) return
     clearHighlights(el)
-    if (highlightIds.length) applyHighlights(el, highlightIds)
+    if (!highlightIds.length) {
+      setMarks([])
+      return
+    }
+    applyHighlights(el, highlightIds)
+    // Bring the first highlighted comment into view.
+    const first = el.querySelector<HTMLElement>('mark.user-hl')
+    first?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    // Marker strip: one tick per highlighted comment, at its relative offset
+    // within the scrollable content (like a browser's find-in-page marks).
+    const pane = paneRef.current
+    if (!pane) return
+    const compute = () => {
+      const total = pane.scrollHeight
+      const paneTop = pane.getBoundingClientRect().top - pane.scrollTop
+      const out: { pos: number; height: number; top: number }[] = []
+      for (const id of highlightIds) {
+        const start = el.querySelector<HTMLElement>(`[data-mw-comment-start][id="${CSS.escape(id)}"]`)
+        const end = el.querySelector<HTMLElement>(`[data-mw-comment-end="${CSS.escape(id)}"]`)
+        if (!start || !end) continue
+        const top = start.getBoundingClientRect().top - paneTop
+        const bottom = end.getBoundingClientRect().bottom - paneTop
+        out.push({ pos: top / total, height: Math.max(0.004, (bottom - top) / total), top })
+      }
+      setMarks(out)
+    }
+    compute()
+    const ro = new ResizeObserver(compute)
+    ro.observe(pane)
+    return () => ro.disconnect()
   }, [highlightIds, html])
 
   // Hover previews (event delegation so it survives innerHTML resets).
@@ -71,8 +103,23 @@ export default function TalkPane({ html, meta, highlightIds }: Props) {
   }, [])
 
   return (
-    <div className="talk-pane">
-      <div className="talk-body" ref={bodyRef} />
+    <div className="talk-wrap">
+      <div className="talk-pane" ref={paneRef}>
+        <div className="talk-body" ref={bodyRef} />
+      </div>
+      {marks.length > 0 && (
+        <div className="scroll-marks" aria-hidden="true">
+          {marks.map((m, i) => (
+            <button
+              key={i}
+              className="scroll-mark"
+              style={{ top: `${m.pos * 100}%`, height: `${m.height * 100}%` }}
+              title="Jump to this comment"
+              onClick={() => paneRef.current?.scrollTo({ top: m.top - 8, behavior: 'smooth' })}
+            />
+          ))}
+        </div>
+      )}
       {hover?.preview && <PreviewCard hover={hover} />}
     </div>
   )

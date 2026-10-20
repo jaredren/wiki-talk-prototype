@@ -36,6 +36,28 @@ export interface DiscussionMeta {
   comments: CommentRef[]
 }
 
+export interface BlockEntry {
+  started: string // ISO 8601
+  ended: string | null
+  reason: string // wikitext
+  duration: string
+  /**
+   * Added by the scraper when the block can be tied to the discussion being
+   * shown (for example a sockpuppet of this user took part in it).
+   * Shape assumed from the study notes; adjust when the scraper emits it.
+   */
+  discussion_relatedness?: {
+    related: boolean
+    method?: string
+    puppet?: string | string[] | boolean | null
+  }
+}
+
+export interface AdminEntry {
+  timestamp: string // ISO 8601
+  action: string // e.g. "sysop_granted", "sysop_removed"
+}
+
 /**
  * Shape of public/data/users/<User_name>.json as produced by the scraper
  * (derived from the Yvan_Part.json sample, 2026-10-18). Fields not yet used
@@ -61,11 +83,11 @@ export interface UserProfile {
       current_block_expiry: string | null
       current_block_timestamp: string | null
     }
-    block_history: unknown[]
+    block_history: BlockEntry[]
   }
   admin_information: {
     is_admin_now: boolean
-    adminship_history: unknown[]
+    adminship_history: AdminEntry[]
   }
   user_page: {
     has_user_page: boolean
@@ -73,7 +95,7 @@ export interface UserProfile {
   }
   user_talk_page: {
     pages_fetched: unknown[]
-    barnstars_found: unknown[]
+    barnstars_found: string[]
     barnstar_count: number
     social_networks_found: Record<string, { their_posts_on_my_talk_count: number }>
   }

@@ -12,7 +12,7 @@ import {
   type BucketKey,
   type BucketSpec,
 } from '../profileData'
-import Popover from './Popover'
+import Popover, { PopTable } from './Popover'
 import { LlmBox } from './Placeholder'
 import { BackArrow, Caret } from './icons'
 
@@ -120,19 +120,12 @@ function TopTenCard({ profile, spec, inline }: { profile: UserProfile | null; sp
         )}
       </span>
       {open && (
-        <Popover title={`Their edits by ${spec.singularNoun}`} onClose={() => setOpen(false)}>
-          {items.length ? (
-            <ol className="rank-list">
-              {items.map((it) => (
-                <li key={it.page}>
-                  <span className="rank-page">{it.page}</span>
-                  <span className="rank-count">{formatInt(it.count)}</span>
-                </li>
-              ))}
-            </ol>
-          ) : (
-            <p className="muted">No {spec.noun} edited in this period</p>
-          )}
+        <Popover onClose={() => setOpen(false)}>
+          <PopTable
+            headers={[spec.nameHeader, 'Number of Edits Made']}
+            rows={items.map((it) => [it.page, formatInt(it.count)])}
+            empty={`No ${spec.noun} edited in this period`}
+          />
         </Popover>
       )}
     </div>

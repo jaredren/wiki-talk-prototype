@@ -45,9 +45,10 @@ src/
   that is active when the page opens is set per discussion by `defaultUser`
   in `manifest.json` (first tab if absent).
 - Right panel, built to the 16-frame design PDF:
-  - Account information: six cards. Barnstars, admin and blocked open
-    popovers listing `barnstars_found`, `adminship_history` and
-    `block_history`; User page summary opens an empty placeholder.
+  - Account information: six cards. Barnstars opens a scrolling table of
+    `barnstars_found` grouped by name; admin and blocked open dated tables of
+    `adminship_history` and `block_history`; User page summary opens an
+    empty placeholder.
   - Recent edit activity: segment widths are proportional to
     `user_contribs.recent_contribs.*.edit_count`. Clicking a segment opens
     the detail view for that namespace (unique page count, Top 10 pages from
@@ -55,8 +56,15 @@ src/
     constant `RECENT_SINCE_LABEL` in `src/profileData.ts`.
   - Social network: both Top 10 lists come from `social_network`
     (`user_talk_social_network` and `article_talk_social_network`).
-  - While the highlight is on, an overlay card covers the account panel
-    ("Behavior in the discussion seems...").
+  - Turning the highlight on scrolls the talk pane to the user's first
+    comment, shows a find-in-page style strip beside the scrollbar with one
+    clickable yellow tick per highlighted comment, and shows an overlay over the account panel ("Behavior in the
+    discussion seems..." placeholder, plus "Blocked conduct in the
+    discussion", which lists `block_history` entries whose
+    `discussion_relatedness.related` is true with their `method` and
+    `puppet`, or "No blocked conduct in the discussion").
+  - Popovers stay inside the right panel horizontally; most scroll the panel
+    into view if needed, the two social network popovers open upward instead.
   - Every area marked "(llm interpretation)" or "(explanation)" in the design
     is rendered as a labeled empty box (`src/components/Placeholder.tsx`).
     The Article edit size table reads `article_edit_activity.distribution`.

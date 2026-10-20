@@ -2,16 +2,23 @@ import { useEffect, useState, type ReactNode } from 'react'
 import type { UserProfile } from '../types'
 import {
   RECENT_SINCE_LABEL,
-  describeItem,
-  formatDate,
-  formatInt,
+  adminActionLabel,
+  adminHistory,
   articleTalkCollaboratorCount,
+  blockHistory,
+  describePuppet,
+  formatDate,
+  formatDateTime,
+  formatInt,
+  groupedBarnstars,
+  relatedBlocks,
+  stripWikitext,
   topArticleTalkCollaborators,
   topUserTalkInteractions,
   userTalkInteractionCount,
   type BucketKey,
 } from '../profileData'
-import Popover from './Popover'
+import Popover, { PopTable } from './Popover'
 import { Explanation, LlmBox } from './Placeholder'
 import { ActivityBar, ActivityDetail } from './EditActivity'
 import { CalendarUserIcon, Caret, EditIcon, UserGearIcon, UserSlashIcon } from './icons'
@@ -52,14 +59,14 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
   const edits = formatInt(acct?.total_edit_count)
   const isAdmin = profile?.admin_information?.is_admin_now ?? null
   const isBlocked = profile?.block_information?.current_block_information?.currently_blocked ?? null
-  const barnstars = profile?.user_talk_page?.barnstars_found ?? []
-  const adminHistory = profile?.admin_information?.adminship_history ?? []
-  const blockHistory = profile?.block_information?.block_history ?? []
+  const barnstars = groupedBarnstars(profile)
+  const admins = adminHistory(profile)
+  const blocks = blockHistory(profile)
 
   return (
     <div className="user-panel">
       <Section title={`${user}'s account information`} open={accountOpen} onToggle={() => setAccountOpen((o) => !o)}>
-        {highlightOn && <DiscussionOverlay />}
+        {highlightOn && <DiscussionOverlay profile={profile} />}
         {!profile && <p className="panel-note">No profile file found for {user}.</p>}
 
         <div className="info-grid">
@@ -86,15 +93,12 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
             </span>
             {pop === 'barnstars' && (
               <Popover onClose={close}>
-                {barnstars.length ? (
-                  <ul className="plain-list">
-                    {barnstars.map((b, i) => (
-                      <li key={i}>{describeItem(b)}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="muted">No barnstars received</p>
-                )}
+                <PopTable
+                  headers={['Barnstar', 'Times received']}
+                  rows={barnstars.map((b) => [b.name, formatInt(b.count)])}
+                  empty="No barnstars received"
+                  scroll={10}
+                />
               </Popover>
             )}
           </div>
@@ -121,8 +125,13 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
               </button>
             </span>
             {pop === 'admin' && (
-              <Popover title="Admin history" onClose={close}>
-                <HistoryList items={adminHistory} empty="No admin history" />
+              <Popover onClose={close}>
+                <PopTable
+                  headers={['Date', 'Action']}
+                  rows={admins.map((a) => [formatDateTime(a.timestamp) ?? a.timestamp, adminActionLabel(a.action)])}
+                  empty="No admin history"
+                  scroll={10}
+                />
               </Popover>
             )}
           </div>
@@ -135,8 +144,17 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
               </button>
             </span>
             {pop === 'blocked' && (
-              <Popover title="Block history" onClose={close} align="right">
-                <HistoryList items={blockHistory} empty="No block history" />
+              <Popover onClose={close} align="right">
+                <PopTable
+                  headers={['Date', 'Duration', 'Reason']}
+                  rows={blocks.map((b) => [
+                    formatDateTime(b.started) ?? b.started,
+                    b.duration,
+                    stripWikitext(b.reason),
+                  ])}
+                  empty="No block history"
+                  scroll={10}
+                />
               </Popover>
             )}
           </div>
@@ -144,7 +162,9 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
 
         <div className="activity-block">
           <div className="activity-title">
-            <span className="activity-link">Recent edit activity</span>{' '}
+            <button className="link-btn activity-link" onClick={() => setBucket('article_page_contribs')}>
+              Recent edit activity
+            </button>{' '}
             <span className="muted small">(since {RECENT_SINCE_LABEL})</span>
           </div>
           <ActivityBar profile={profile} selected={null} onSelect={setBucket} />
@@ -169,9 +189,13 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
               )}
             </span>
             {pop === 'collab' && (
-              <Popover onClose={close}>
+              <Popover onClose={close} overflow="flip">
                 <Explanation />
-                <RankList items={topArticleTalkCollaborators(profile)} empty="No article talk collaborations found" />
+                <PopTable
+                  headers={['Username', 'Number of Occurrences']}
+                  rows={topArticleTalkCollaborators(profile).map((r) => [r.user, formatInt(r.count)])}
+                  empty="No article talk collaborations found"
+                />
               </Popover>
             )}
           </div>
@@ -191,9 +215,13 @@ export default function UserPanel({ user, profile, highlightOn }: Props) {
               )}
             </span>
             {pop === 'social' && (
-              <Popover onClose={close} align="right">
+              <Popover onClose={close} align="right" overflow="flip">
                 <Explanation />
-                <RankList items={topUserTalkInteractions(profile)} empty="No user talk interactions found" />
+                <PopTable
+                  headers={['Username', 'Number of Interactions']}
+                  rows={topUserTalkInteractions(profile).map((r) => [r.user, formatInt(r.count)])}
+                  empty="No user talk interactions found"
+                />
               </Popover>
             )}
           </div>
@@ -229,41 +257,32 @@ function Section({
   )
 }
 
-function HistoryList({ items, empty }: { items: unknown[]; empty: string }) {
-  if (!items.length) return <p className="muted">{empty}</p>
-  return (
-    <ul className="plain-list">
-      {items.map((it, i) => (
-        <li key={i}>{describeItem(it)}</li>
-      ))}
-    </ul>
-  )
-}
-
-function RankList({ items, empty }: { items: { user: string; count: number }[]; empty: string }) {
-  if (!items.length) return <p className="muted">{empty}</p>
-  return (
-    <ol className="rank-list">
-      {items.map((it) => (
-        <li key={it.user}>
-          <span className="rank-page">{it.user}</span>
-          <span className="rank-count">{formatInt(it.count)}</span>
-        </li>
-      ))}
-    </ol>
-  )
-}
-
 /**
  * Card that covers the account panel while the discussion highlight is on
- * (frame 3 of the design). Contents are placeholders.
+ * (frame 3 of the design). "Behavior" is a placeholder; "Blocked conduct"
+ * lists blocks the scraper marked as related to this discussion.
  */
-function DiscussionOverlay() {
+function DiscussionOverlay({ profile }: { profile: UserProfile | null }) {
+  const related = relatedBlocks(profile)
   return (
     <div className="discussion-overlay">
       <h3>Behavior in the discussion seems…</h3>
       <LlmBox height={150} />
       <h3>Blocked conduct in the discussion</h3>
+      {related.length ? (
+        <PopTable
+          headers={['Date', 'Reason', 'How it relates', 'Puppet']}
+          rows={related.map((b) => [
+            formatDateTime(b.started) ?? b.started,
+            stripWikitext(b.reason),
+            b.discussion_relatedness?.method ?? '–',
+            describePuppet(b.discussion_relatedness?.puppet) ?? '–',
+          ])}
+          empty=""
+        />
+      ) : (
+        <p className="muted">No blocked conduct in the discussion</p>
+      )}
     </div>
   )
 }

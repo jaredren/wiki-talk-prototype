@@ -1,4 +1,4 @@
-import type { UserProfile } from './types'
+import type { AdminEntry, BlockEntry, UserProfile } from './types'
 
 /**
  * Derived views over the scraper JSON used by the right-hand panel.
@@ -21,17 +21,18 @@ export interface BucketSpec {
   label: string          // segment label, e.g. "Article"
   noun: string           // "articles", "talks", ...
   singularNoun: string   // "article", "talk", ...
+  nameHeader: string     // table header for the Top 10 popover
   color: string          // resting fill
   active: string         // selected fill
   layout: 'article' | 'talk' | 'userTalk' | 'wp'
 }
 
 export const BUCKETS: BucketSpec[] = [
-  { key: 'article_page_contribs', label: 'Article', noun: 'articles', singularNoun: 'article', color: '#d4f7d4', active: '#4ef04e', layout: 'article' },
-  { key: 'article_talk_page_contribs', label: 'Talk', noun: 'talks', singularNoun: 'talk', color: '#dbeeff', active: '#1ee5f5', layout: 'talk' },
-  { key: 'user_talk_page_contribs', label: 'User talk', noun: 'user talks', singularNoun: 'user talk', color: '#ead3fb', active: '#f45ef0', layout: 'userTalk' },
-  { key: 'WP_page_contribs', label: 'WP', noun: 'WP pages', singularNoun: 'WP page', color: '#fcd9b0', active: '#f29a1f', layout: 'wp' },
-  { key: 'WP_talk_page_contribs', label: 'WP talk', noun: 'WP talks', singularNoun: 'WP talk', color: '#e6e6e6', active: '#b5b5b5', layout: 'wp' },
+  { key: 'article_page_contribs', label: 'Article', noun: 'articles', singularNoun: 'article', nameHeader: 'Article Name', color: '#d4f7d4', active: '#4ef04e', layout: 'article' },
+  { key: 'article_talk_page_contribs', label: 'Talk', noun: 'talks', singularNoun: 'talk', nameHeader: 'Talk Name', color: '#dbeeff', active: '#1ee5f5', layout: 'talk' },
+  { key: 'user_talk_page_contribs', label: 'User talk', noun: 'user talks', singularNoun: 'user talk', nameHeader: 'User Talk Name', color: '#ead3fb', active: '#f45ef0', layout: 'userTalk' },
+  { key: 'WP_page_contribs', label: 'WP', noun: 'WP pages', singularNoun: 'WP page', nameHeader: 'WP Page Name', color: '#fcd9b0', active: '#f29a1f', layout: 'wp' },
+  { key: 'WP_talk_page_contribs', label: 'WP talk', noun: 'WP talks', singularNoun: 'WP talk', nameHeader: 'WP Talk Name', color: '#e6e6e6', active: '#b5b5b5', layout: 'wp' },
 ]
 
 export function bucketCount(p: UserProfile | null, key: BucketKey): number | null {
@@ -136,4 +137,59 @@ export function describeItem(item: unknown): string {
     return JSON.stringify(item)
   }
   return String(item)
+}
+
+/** Barnstars grouped by name, most frequent first. */
+export function groupedBarnstars(p: UserProfile | null): { name: string; count: number }[] {
+  const counts = new Map<string, number>()
+  for (const b of p?.user_talk_page?.barnstars_found ?? []) {
+    const name = typeof b === 'string' ? b : describeItem(b)
+    counts.set(name, (counts.get(name) ?? 0) + 1)
+  }
+  return [...counts.entries()].map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count)
+}
+
+const ADMIN_ACTION_LABELS: Record<string, string> = {
+  sysop_granted: 'Admin rights granted',
+  sysop_removed: 'Admin rights removed',
+}
+export const adminActionLabel = (a: string) => ADMIN_ACTION_LABELS[a] ?? a.replace(/_/g, ' ')
+
+export const adminHistory = (p: UserProfile | null): AdminEntry[] => p?.admin_information?.adminship_history ?? []
+export const blockHistory = (p: UserProfile | null): BlockEntry[] => p?.block_information?.block_history ?? []
+
+/** Blocks the scraper marked as related to the discussion being shown. */
+export const relatedBlocks = (p: UserProfile | null): BlockEntry[] =>
+  blockHistory(p).filter((b) => b.discussion_relatedness?.related === true)
+
+/** "[[WP:Edit warring|Edit warring]], [[WP:3RR]] violation" -> "Edit warring, WP:3RR violation" */
+export function stripWikitext(s: string): string {
+  return s
+    .replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, '$2')
+    .replace(/\[\[([^\]]*)\]\]/g, '$1')
+    .replace(/'''?/g, '')
+    .trim()
+}
+
+export function formatDateTime(iso: string | null | undefined): string | null {
+  if (!iso) return null
+  const d = new Date(iso)
+  if (Number.isNaN(d.getTime())) return null
+  return (
+    d.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'UTC',
+      hour12: false,
+    }) + ' UTC'
+  )
+}
+
+export function describePuppet(v: unknown): string | null {
+  if (v == null || v === false) return null
+  if (v === true) return 'yes'
+  return Array.isArray(v) ? v.join(', ') : String(v)
 }

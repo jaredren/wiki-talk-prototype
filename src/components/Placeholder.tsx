@@ -1,5 +1,5 @@
 /**
- * Boxes whose content is deliberately not built yet (marked in the design as
+ * Areas whose content is deliberately not built yet (marked in the design as
  * "(llm interpretation)", "(explanation)", etc.). They render the label only.
  */
 export function LlmBox({ height = 240 }: { height?: number }) {

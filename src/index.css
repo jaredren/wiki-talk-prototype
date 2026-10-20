@@ -53,6 +53,12 @@ html, body, #root {
   max-width: 360px;
 }
 
+.talk-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  position: relative;
+}
 .talk-pane {
   flex: 1 1 auto;
   min-height: 0;
@@ -60,6 +66,26 @@ html, body, #root {
   padding-right: 24px;
   padding-bottom: 48px;
 }
+/* Find-in-page style strip next to the scrollbar: one tick per highlighted comment */
+.scroll-marks {
+  flex: 0 0 12px;
+  position: relative;
+  margin-left: 4px;
+  background: #f8f9fa;
+  border-left: 1px solid var(--border-light);
+}
+.scroll-mark {
+  position: absolute;
+  left: 1px;
+  right: 0;
+  min-height: 6px;
+  background: #e9c214;
+  border: none;
+  border-radius: 1px;
+  padding: 0;
+  cursor: pointer;
+}
+.scroll-mark:hover { background: #d9b400; }
 
 .right {
   display: flex;
@@ -176,7 +202,7 @@ html, body, #root {
 /* ---- Recent edit activity ---- */
 .activity-block { margin-top: 28px; }
 .activity-title { font-size: 18px; margin: 0 16px 12px; }
-.activity-link { color: var(--wiki-blue); font-weight: bold; }
+.activity-link { color: var(--wiki-blue); font-weight: bold; font-size: inherit; }
 .activity-bar {
   display: flex;
   gap: 3px;
@@ -186,7 +212,7 @@ html, body, #root {
 .activity-seg {
   font: inherit;
   font-size: 17px;
-  color: var(--text);
+  color: var(--wiki-blue);
   border: 2px solid transparent;
   cursor: pointer;
   padding: 4px 8px;
@@ -219,7 +245,6 @@ html, body, #root {
 .card-row .info-card.inline { min-height: 120px; }
 
 .llm-box {
-  border: 1px solid var(--border-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,7 +252,7 @@ html, body, #root {
   font-size: 17px;
   padding: 16px;
 }
-.explanation { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text); margin-bottom: 36px; }
+.explanation { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text); margin-bottom: 14px; }
 
 .edit-size { border-collapse: collapse; width: 100%; font-size: 15px; }
 .edit-size th, .edit-size td { border: 1px solid #202122; padding: 14px 6px; text-align: left; }
@@ -243,9 +268,9 @@ html, body, #root {
   background: #fff;
   border: 1px solid var(--border);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-  padding: 20px 28px 28px;
-  min-height: 170px;
-  font-size: 17px;
+  padding: 36px 24px 20px;
+  min-height: 0;
+  font-size: 16px;
   text-align: left;
 }
 .popover-left { left: 24px; }
@@ -263,6 +288,9 @@ html, body, #root {
 .popover-left .popover-arrow { left: 90px; }   /* fallback; JS points it at the trigger */
 .popover-right .popover-arrow { right: 90px; }
 .popover-arrow[style] { right: auto; }
+/* Upward variant: sits above the anchor, arrow on the bottom edge */
+.popover-up { top: auto; bottom: calc(100% - 6px); }
+.popover-up .popover-arrow { top: auto; bottom: -9px; transform: rotate(225deg); }
 .popover-close {
   position: absolute;
   top: 12px;
@@ -274,11 +302,20 @@ html, body, #root {
   padding: 4px;
 }
 .popover-title { font-size: 18px; margin: 4px 0 40px; }
-.popover-body { margin-top: 12px; }
+.popover-body { margin-top: 0; }
 .plain-list { margin: 0; padding-left: 20px; }
 .rank-list { margin: 0; padding-left: 24px; }
 .rank-list li { display: flex; justify-content: space-between; gap: 16px; padding: 3px 0; }
 .rank-count { color: var(--muted); }
+.pop-table { border-collapse: collapse; width: 100%; font-size: 15px; line-height: 1.25; }
+.pop-table th, .pop-table td { text-align: left; padding: 5px 10px 5px 0; vertical-align: top; }
+.pop-table th { font-weight: bold; border-bottom: 1px solid var(--border); }
+.pop-table td { border-bottom: 1px solid #eaecf0; }
+.pop-table td:last-child, .pop-table th:last-child { padding-right: 0; }
+.pop-table .num { text-align: right; white-space: nowrap; }
+.pop-scroll { overflow-y: auto; scrollbar-gutter: stable; }
+.pop-scroll .pop-table td:last-child, .pop-scroll .pop-table th:last-child { padding-right: 14px; }
+.pop-scroll .pop-table thead th { position: sticky; top: 0; background: #fff; }
 
 /* ---- Overlay shown while the highlight is on ---- */
 .discussion-overlay {
@@ -351,9 +388,8 @@ html, body, #root {
   .llm-box { min-height: 160px !important; }
   .edit-size { font-size: 14px; }
   .edit-size th, .edit-size td { padding: 10px 6px; }
-  .popover { padding: 16px 20px 20px; min-height: 140px; font-size: 15px; }
-  .popover-title { font-size: 16px; margin-bottom: 28px; }
-  .explanation { margin-bottom: 24px; }
+  .popover { padding: 32px 18px 16px; font-size: 15px; }
+  .explanation { margin-bottom: 10px; }
   .discussion-overlay { padding: 32px 32px 40px; }
   .discussion-overlay h3 { font-size: 18px; margin-bottom: 24px; }
   .discussion-overlay .llm-box { margin-bottom: 40px; }
