@@ -32,8 +32,8 @@ type PopId = 'barnstars' | 'userpage' | 'admin' | 'blocked' | 'collab' | 'social
 
 export default function UserPanel({ user, profile }: Props) {
   const [accountOpen, setAccountOpen] = useState(true)
-  const [socialOpen, setSocialOpen] = useState(false)
-  const [discussionOpen, setDiscussionOpen] = useState(false)
+  const [socialOpen, setSocialOpen] = useState(true)
+  const [discussionOpen, setDiscussionOpen] = useState(true)
   const [bucket, setBucket] = useState<BucketKey | null>(null)
   const [pop, setPop] = useState<PopId>(null)
 
@@ -232,7 +232,7 @@ export default function UserPanel({ user, profile }: Props) {
           <div className="info-card pop-anchor">
             <span>
               <button className="link-btn plain" onClick={() => toggle('behavior')} aria-expanded={pop === 'behavior'}>
-                Behavior in the discussion <Caret />
+                <b>Behavior</b>&nbsp;in the discussion <Caret up />
               </button>
             </span>
             {pop === 'behavior' && (
@@ -244,7 +244,7 @@ export default function UserPanel({ user, profile }: Props) {
           <div className="info-card pop-anchor">
             <span>
               <button className="link-btn plain" onClick={() => toggle('conduct')} aria-expanded={pop === 'conduct'}>
-                Blocked conduct in the discussion <Caret />
+                <b>Blocked conduct</b>&nbsp;in the discussion <Caret up />
               </button>
             </span>
             {pop === 'conduct' && (
@@ -274,12 +274,12 @@ function Section({
 }) {
   return (
     <section className="panel-section">
-      <div className="panel-head">
-        <button className="panel-toggle" onClick={onToggle} aria-expanded={open} aria-label={open ? 'Collapse' : 'Expand'}>
-          <span className={'caret' + (open ? ' open' : '')} aria-hidden="true" />
-        </button>
+      <button className="panel-head" onClick={onToggle} aria-expanded={open}>
+        <span className="panel-toggle" aria-hidden="true">
+          <span className={'caret' + (open ? ' open' : '')} />
+        </span>
         <h2 className="panel-title">{title}</h2>
-      </div>
+      </button>
       {open && <div className="panel-body">{children}</div>}
     </section>
   )
