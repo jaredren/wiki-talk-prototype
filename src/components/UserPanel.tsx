@@ -28,7 +28,7 @@ interface Props {
   profile: UserProfile | null // null = no JSON file for this user
 }
 
-type PopId = 'barnstars' | 'userpage' | 'admin' | 'blocked' | 'collab' | 'social' | null
+type PopId = 'barnstars' | 'userpage' | 'admin' | 'blocked' | 'collab' | 'social' | 'behavior' | 'conduct' | null
 
 export default function UserPanel({ user, profile }: Props) {
   const [accountOpen, setAccountOpen] = useState(true)
@@ -228,7 +228,32 @@ export default function UserPanel({ user, profile }: Props) {
       </Section>
 
       <Section title={`${user} in the discussion`} open={discussionOpen} onToggle={() => setDiscussionOpen((o) => !o)}>
-        <DiscussionDetails profile={profile} />
+        <div className="info-grid">
+          <div className="info-card pop-anchor">
+            <span>
+              <button className="link-btn plain" onClick={() => toggle('behavior')} aria-expanded={pop === 'behavior'}>
+                Behavior in the discussion <Caret />
+              </button>
+            </span>
+            {pop === 'behavior' && (
+              <Popover onClose={close} overflow="flip">
+                <LlmBox height={150} />
+              </Popover>
+            )}
+          </div>
+          <div className="info-card pop-anchor">
+            <span>
+              <button className="link-btn plain" onClick={() => toggle('conduct')} aria-expanded={pop === 'conduct'}>
+                Blocked conduct in the discussion <Caret />
+              </button>
+            </span>
+            {pop === 'conduct' && (
+              <Popover onClose={close} align="right" overflow="flip">
+                <BlockedConductTable profile={profile} />
+              </Popover>
+            )}
+          </div>
+        </div>
       </Section>
     </div>
   )
@@ -260,33 +285,19 @@ function Section({
   )
 }
 
-/**
- * Body of the "<user> in the discussion" section. The talk-pane highlight is
- * toggled by clicking the username tab. "Behavior" is a placeholder;
- * "Blocked conduct" lists blocks the scraper marked as related to this
- * discussion.
- */
-function DiscussionDetails({ profile }: { profile: UserProfile | null }) {
+/** Blocks the scraper marked as related to this discussion. */
+function BlockedConductTable({ profile }: { profile: UserProfile | null }) {
   const related = relatedBlocks(profile)
   return (
-    <div className="discussion-details">
-      <h3>Behavior in the discussion seems…</h3>
-      <LlmBox height={150} />
-      <h3>Blocked conduct in the discussion</h3>
-      {related.length ? (
-        <PopTable
-          headers={['Date', 'Reason', 'How it relates', 'Puppet']}
-          rows={related.map((b) => [
-            formatDateTime(b.started) ?? b.started,
-            stripWikitext(b.reason),
-            b.discussion_relatedness?.method ?? '–',
-            describePuppet(b.discussion_relatedness?.puppet) ?? '–',
-          ])}
-          empty=""
-        />
-      ) : (
-        <p className="muted">No blocked conduct in the discussion</p>
-      )}
-    </div>
+    <PopTable
+      headers={['Date', 'Reason', 'How it relates', 'Puppet']}
+      rows={related.map((b) => [
+        formatDateTime(b.started) ?? b.started,
+        stripWikitext(b.reason),
+        b.discussion_relatedness?.method ?? '–',
+        describePuppet(b.discussion_relatedness?.puppet) ?? '–',
+      ])}
+      empty="No blocked conduct in the discussion"
+    />
   )
 }

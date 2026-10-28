@@ -106,17 +106,16 @@ export default function App() {
     if (activeUser || !tabUsers.length) return
     const preferred = tabUsers.find((u) => u.name === entry?.defaultUser)
     setActiveUser((preferred ?? tabUsers[0]).name)
-    setHighlightOn(true) // the selected user's comments are highlighted by default
   }, [tabUsers, activeUser, entry])
 
-  // Clicking a username highlights their comments right away; clicking the
-  // active username again toggles the highlight off and on.
+  // Selecting a user leaves the highlight off; clicking the active username
+  // again toggles their comments' highlight on and off.
   const selectUser = (name: string) => {
     if (name === activeUser) {
       setHighlightOn((v) => !v)
     } else {
       setActiveUser(name)
-      setHighlightOn(true)
+      setHighlightOn(false)
     }
   }
 

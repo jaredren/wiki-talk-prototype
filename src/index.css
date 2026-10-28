@@ -335,11 +335,6 @@ html, body, #root {
 .discussion-overlay h3 { font-size: 20px; font-weight: normal; margin: 0 0 36px; }
 .discussion-overlay .llm-box { margin-bottom: 64px; }
 
-/* ---- "<user> in the discussion" section ---- */
-.discussion-details { padding: 0 10px; }
-.discussion-details h3 { font-size: 20px; font-weight: normal; margin: 0 0 20px; }
-.discussion-details .llm-box { margin-bottom: 36px; }
-
 /* ---- Hover preview card ---- */
 .preview-card {
   position: fixed;
