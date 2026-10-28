@@ -28,11 +28,11 @@ export interface BucketSpec {
 }
 
 export const BUCKETS: BucketSpec[] = [
-  { key: 'article_page_contribs', label: 'Article', noun: 'articles', singularNoun: 'article', nameHeader: 'Article Name', color: '#d4f7d4', active: '#4ef04e', layout: 'article' },
-  { key: 'article_talk_page_contribs', label: 'Talk', noun: 'talks', singularNoun: 'talk', nameHeader: 'Talk Name', color: '#dbeeff', active: '#1ee5f5', layout: 'talk' },
+  { key: 'article_page_contribs', label: 'Article', noun: 'articles', singularNoun: 'article', nameHeader: 'Article name', color: '#d4f7d4', active: '#4ef04e', layout: 'article' },
+  { key: 'article_talk_page_contribs', label: 'Talk', noun: 'talks', singularNoun: 'talk', nameHeader: 'Talk name', color: '#dbeeff', active: '#1ee5f5', layout: 'talk' },
   { key: 'user_talk_page_contribs', label: 'User talk', noun: 'user talks', singularNoun: 'user talk', nameHeader: 'User Talk Name', color: '#ead3fb', active: '#f45ef0', layout: 'userTalk' },
-  { key: 'WP_page_contribs', label: 'WP', noun: 'WP pages', singularNoun: 'WP page', nameHeader: 'WP Page Name', color: '#fcd9b0', active: '#f29a1f', layout: 'wp' },
-  { key: 'WP_talk_page_contribs', label: 'WP talk', noun: 'WP talks', singularNoun: 'WP talk', nameHeader: 'WP Talk Name', color: '#e6e6e6', active: '#b5b5b5', layout: 'wp' },
+  { key: 'WP_page_contribs', label: 'WP', noun: 'WP pages', singularNoun: 'WP page', nameHeader: 'WP page name', color: '#fcd9b0', active: '#f29a1f', layout: 'wp' },
+  { key: 'WP_talk_page_contribs', label: 'WP talk', noun: 'WP talks', singularNoun: 'WP talk', nameHeader: 'WP talk name', color: '#e6e6e6', active: '#b5b5b5', layout: 'wp' },
 ]
 
 export function bucketCount(p: UserProfile | null, key: BucketKey): number | null {

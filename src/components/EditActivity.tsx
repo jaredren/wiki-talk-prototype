@@ -122,7 +122,7 @@ function TopTenCard({ profile, spec, inline }: { profile: UserProfile | null; sp
       {open && (
         <Popover onClose={() => setOpen(false)}>
           <PopTable
-            headers={[spec.nameHeader, 'Number of Edits Made']}
+            headers={[spec.nameHeader, 'Number of edits made']}
             rows={items.map((it) => [it.page, formatInt(it.count)])}
             empty={`No ${spec.noun} edited in this period`}
           />

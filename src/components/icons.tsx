@@ -53,9 +53,9 @@ export const UserSearchIcon = () => (
   </svg>
 )
 
-export const Caret = () => (
+export const Caret = ({ up = false }: { up?: boolean }) => (
   <svg className="caret-icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
-    <path d="M2 4l4 4 4-4z" fill="currentColor" />
+    <path d={up ? 'M2 8l4-4 4 4z' : 'M2 4l4 4 4-4z'} fill="currentColor" />
   </svg>
 )
 

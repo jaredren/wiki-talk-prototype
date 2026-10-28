@@ -179,13 +179,13 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
               {articleTalkCollaboratorCount(profile) > 10 ? (
                 <>
                   <button className="link-btn" onClick={() => toggle('collab')} aria-expanded={pop === 'collab'}>
-                    Top 10 <Caret />
+                    Top 10 <Caret up />
                   </button>{' '}
                   <b>article talk</b> work collaborations
                 </>
               ) : (
                 <button className="link-btn plain" onClick={() => toggle('collab')} aria-expanded={pop === 'collab'}>
-                  <b>Article talk</b>&nbsp;work collaborations <Caret />
+                  <b>Article talk</b>&nbsp;work collaborations <Caret up />
                 </button>
               )}
             </span>
@@ -193,7 +193,7 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
               <Popover onClose={close} overflow="flip">
                 <Explanation />
                 <PopTable
-                  headers={['Username', 'Number of Occurrences']}
+                  headers={['Username', 'Number of occurrences']}
                   rows={topArticleTalkCollaborators(profile).map((r) => [r.user, formatInt(r.count)])}
                   empty="No article talk collaborations found"
                 />
@@ -205,13 +205,13 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
               {userTalkInteractionCount(profile) > 10 ? (
                 <>
                   <button className="link-btn" onClick={() => toggle('social')} aria-expanded={pop === 'social'}>
-                    Top 10 <Caret />
+                    Top 10 <Caret up />
                   </button>{' '}
                   <b>user talk</b> social interactions
                 </>
               ) : (
                 <button className="link-btn plain" onClick={() => toggle('social')} aria-expanded={pop === 'social'}>
-                  <b>User talk</b>&nbsp;social interactions <Caret />
+                  <b>User talk</b>&nbsp;social interactions <Caret up />
                 </button>
               )}
             </span>
@@ -219,7 +219,7 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
               <Popover onClose={close} align="right" overflow="flip">
                 <Explanation />
                 <PopTable
-                  headers={['Username', 'Number of Interactions']}
+                  headers={['Username', 'Number of interactions']}
                   rows={topUserTalkInteractions(profile).map((r) => [r.user, formatInt(r.count)])}
                   empty="No user talk interactions found"
                 />
