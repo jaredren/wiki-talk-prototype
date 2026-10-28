@@ -106,41 +106,40 @@ export default function App() {
     if (activeUser || !tabUsers.length) return
     const preferred = tabUsers.find((u) => u.name === entry?.defaultUser)
     setActiveUser((preferred ?? tabUsers[0]).name)
+    setHighlightOn(true) // the selected user's comments are highlighted by default
   }, [tabUsers, activeUser, entry])
 
-  // Switching tabs turns the highlight off; it applies to the active tab only.
+  // Clicking a username highlights their comments right away; clicking the
+  // active username again toggles the highlight off and on.
   const selectUser = (name: string) => {
-    setActiveUser(name)
-    setHighlightOn(false)
+    if (name === activeUser) {
+      setHighlightOn((v) => !v)
+    } else {
+      setActiveUser(name)
+      setHighlightOn(true)
+    }
   }
 
   if (error) return <div className="status error">{error}</div>
 
   return (
+    <div className="app">
+      {entries.length > 1 && (
+        <div className="top-bar">
+          <label className="discussion-picker">
+            <span className="muted small">Discussion</span>
+            <select value={entry?.id ?? ''} onChange={(e) => switchDiscussion(e.target.value)}>
+              {entries.map((d) => (
+                <option key={d.id} value={d.id}>
+                  {d.page}: {d.section}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+      )}
     <div className="layout">
       <div className="left">
-        <div className="left-toolbar">
-          <button
-            className={'hl-toggle' + (highlightOn ? ' on' : '')}
-            onClick={() => setHighlightOn((v) => !v)}
-            aria-pressed={highlightOn}
-            disabled={!activeUser}
-          >
-            {activeUser || 'User'} in the discussion
-          </button>
-          {entries.length > 1 && (
-            <label className="discussion-picker">
-              <span className="muted small">Discussion</span>
-              <select value={entry?.id ?? ''} onChange={(e) => switchDiscussion(e.target.value)}>
-                {entries.map((d) => (
-                  <option key={d.id} value={d.id}>
-                    {d.page}: {d.section}
-                  </option>
-                ))}
-              </select>
-            </label>
-          )}
-        </div>
         {meta && html ? (
           <TalkPane key={meta.id} html={html} meta={meta} highlightIds={highlightIds} />
         ) : (
@@ -156,8 +155,6 @@ export default function App() {
                 key={`${meta.id}:${activeUser}`}
                 user={activeUser}
                 profile={profile}
-                highlightOn={highlightOn}
-                onCloseHighlight={() => setHighlightOn(false)}
               />
             ) : (
               <p className="panel-note">No user profiles found for this discussion.</p>
@@ -165,6 +162,7 @@ export default function App() {
           </>
         )}
       </div>
+    </div>
     </div>
   )
 }

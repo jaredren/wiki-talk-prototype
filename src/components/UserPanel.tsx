@@ -26,15 +26,14 @@ import { BarnstarIcon, CalendarUserIcon, Caret, EditIcon, UserGearIcon, UserSear
 interface Props {
   user: string
   profile: UserProfile | null // null = no JSON file for this user
-  highlightOn: boolean
-  onCloseHighlight: () => void
 }
 
 type PopId = 'barnstars' | 'userpage' | 'admin' | 'blocked' | 'collab' | 'social' | null
 
-export default function UserPanel({ user, profile, highlightOn, onCloseHighlight }: Props) {
+export default function UserPanel({ user, profile }: Props) {
   const [accountOpen, setAccountOpen] = useState(true)
   const [socialOpen, setSocialOpen] = useState(false)
+  const [discussionOpen, setDiscussionOpen] = useState(false)
   const [bucket, setBucket] = useState<BucketKey | null>(null)
   const [pop, setPop] = useState<PopId>(null)
 
@@ -67,7 +66,6 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
   return (
     <div className="user-panel">
       <Section title={`${user}'s account information`} open={accountOpen} onToggle={() => setAccountOpen((o) => !o)}>
-        {highlightOn && <DiscussionOverlay profile={profile} onClose={onCloseHighlight} />}
         {!profile && <p className="panel-note">No profile file found for {user}.</p>}
 
         <div className="info-grid">
@@ -228,6 +226,10 @@ export default function UserPanel({ user, profile, highlightOn, onCloseHighlight
           </div>
         </div>
       </Section>
+
+      <Section title={`${user} in the discussion`} open={discussionOpen} onToggle={() => setDiscussionOpen((o) => !o)}>
+        <DiscussionDetails profile={profile} />
+      </Section>
     </div>
   )
 }
@@ -259,19 +261,15 @@ function Section({
 }
 
 /**
- * Card that covers the account panel while the discussion highlight is on
- * (frame 3 of the design). "Behavior" is a placeholder; "Blocked conduct"
- * lists blocks the scraper marked as related to this discussion.
+ * Body of the "<user> in the discussion" section. The talk-pane highlight is
+ * toggled by clicking the username tab. "Behavior" is a placeholder;
+ * "Blocked conduct" lists blocks the scraper marked as related to this
+ * discussion.
  */
-function DiscussionOverlay({ profile, onClose }: { profile: UserProfile | null; onClose: () => void }) {
+function DiscussionDetails({ profile }: { profile: UserProfile | null }) {
   const related = relatedBlocks(profile)
   return (
-    <div className="discussion-overlay" role="dialog">
-      <button className="popover-close overlay-close" onClick={onClose} aria-label="Close">
-        <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true">
-          <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" strokeWidth="1.6" fill="none" />
-        </svg>
-      </button>
+    <div className="discussion-details">
       <h3>Behavior in the discussion seems…</h3>
       <LlmBox height={150} />
       <h3>Blocked conduct in the discussion</h3>
