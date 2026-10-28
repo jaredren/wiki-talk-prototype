@@ -104,7 +104,7 @@ function TopTenCard({ profile, spec, inline }: { profile: UserProfile | null; sp
   const capped = total > 10 // "Top 10" only when the list was actually cut
   const nounCap = spec.noun.charAt(0).toUpperCase() + spec.noun.slice(1)
   return (
-    <div className={'info-card center pop-anchor' + (inline ? ' inline' : '')}>
+    <div className={'info-card center pop-anchor topten' + (inline ? ' inline' : '')}>
       <span>
         {capped ? (
           <>
@@ -120,10 +120,11 @@ function TopTenCard({ profile, spec, inline }: { profile: UserProfile | null; sp
         )}
       </span>
       {open && (
-        <Popover onClose={() => setOpen(false)}>
+        <Popover onClose={() => setOpen(false)} align={inline ? 'right' : 'left'}>
           <PopTable
             headers={[spec.nameHeader, 'Number of edits made']}
-            rows={items.map((it) => [it.page, formatInt(it.count)])}
+            // Allow line breaks after "/" so long page paths wrap at a slash, not mid-word.
+            rows={items.map((it) => [it.page.replace(/\//g, '/\u200B'), formatInt(it.count)])}
             empty={`No ${spec.noun} edited in this period`}
           />
         </Popover>

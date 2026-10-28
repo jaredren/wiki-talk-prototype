@@ -259,6 +259,9 @@ html, body, #root {
 .detail-col .info-card { margin-bottom: 3px; }
 .card-row { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; }
 .card-row .info-card.inline { min-height: 120px; }
+/* Top 10 pages (Article, Talk, WP, WP talk): open just under the link text,
+   not under the bottom of the card */
+.info-card.topten > .popover { top: calc(50% + 22px); }
 
 .llm-box {
   display: flex;
@@ -329,6 +332,9 @@ html, body, #root {
 .pop-table td { border-bottom: 1px solid #eaecf0; }
 .pop-table td:last-child, .pop-table th:last-child { padding-right: 0; }
 .pop-table .num { text-align: right; white-space: nowrap; }
+/* Long page names with no spaces (e.g. Wikipedia:Arbitration/Requests/Case/…)
+   must wrap, or the table grows wider than the popover and gets cut off. */
+.pop-table td:not(.num) { overflow-wrap: anywhere; }
 .pop-scroll { overflow-y: auto; scrollbar-gutter: stable; }
 .pop-scroll .pop-table td:last-child, .pop-scroll .pop-table th:last-child { padding-right: 14px; }
 .pop-scroll .pop-table thead th { position: sticky; top: 0; background: #fff; }
